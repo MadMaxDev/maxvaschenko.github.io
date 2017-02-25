@@ -1,0 +1,27 @@
+body {
+  background: #F0F1F4;
+}
+
+h1{
+  text-transform: uppercase;
+}
+#main{
+  width: 1024px;
+  height: 1024px;
+  margin: auto;
+}
+.title{
+  text-align: center;
+}
+
+.line{
+  border-bottom: 2px solid black;
+}
+
+
+#container{
+  width: 500px;
+  margin: auto; /* Отступ справа */
+ }
+textPath
+
