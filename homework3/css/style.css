@@ -1,0 +1,16 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+.site {
+    width: 1100px;
+    height: 900px;
+    background-color: #808080;
+    margin-left: 150px;
+}
+
+.logo {
+    margin-top: 40px;
+    margin-left: 50px;
+}
