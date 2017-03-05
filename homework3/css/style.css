@@ -16,12 +16,12 @@
 
 .upper-menu {
     display: inline-block;
-    height: 0px;  /*Уплывает вверх если удалить*/
     vertical-align: middle;
     font: 15px "Times New Roman";
     color: #ffffff;
     background: #575656;
     padding-left: 100px;
+    line-height: 40px;
 }
 
 .left_menu {
@@ -79,4 +79,36 @@ li {
     padding-right: 50px;
     float: right;
     font: 14px "Times New Roman"
+}
+
+.container_footer {
+    height: 40px;
+    width: 967px;
+    background-color: #e1e1e1;
+    margin-top: 650px;
+    margin-left: 50px;
+    position: fixed;
+}
+
+.footer_menu {
+    display: inline-block;
+    vertical-align: middle;
+    font: 13px "Times New Roman";
+    color: #a8a8a8;
+    background: #e1e1e1 ;
+    padding-left: 25px;
+    padding-right: 75px;
+    line-height: 40px;
+}
+
+.footer_menu a {
+    text-decoration: none;
+    font: 13px "Times New Roman";
+    color: #2c2c2c;
+}
+.rights {
+    display: inline-block;
+    padding-left: 170px;
+    font: 13px "Times New Roman";
+
 }
