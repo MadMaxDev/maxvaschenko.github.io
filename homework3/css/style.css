@@ -11,17 +11,21 @@
     margin-left: 50px;
     margin-right: 50px;
     background-color: #535252;
-
 }
 
 .upper-menu {
     display: inline-block;
     vertical-align: middle;
+    background: #535252;
+    padding-left: 25px;
+    padding-right: 75px;
+    line-height: 40px;
+}
+
+.upper-menu a {
+    text-decoration: none;
     font: 15px "Times New Roman";
     color: #ffffff;
-    background: #575656;
-    padding-left: 100px;
-    line-height: 40px;
 }
 
 .left_menu {
@@ -29,8 +33,11 @@
     float: left;
     display: block;
     margin-left: 50px;
-    margin-right: 0px;
     margin-top: 43px;
+}
+
+.telephones {
+    box-sizing: border-box;
 
 }
 
@@ -49,7 +56,6 @@
     background-color: #ffffff;
     margin-left: 150px;
     position: fixed;
-    overflow: scroll;
 }
 
 .content {
@@ -76,7 +82,7 @@ li {
 
 .lorem {
     padding-left: 350px;
-    padding-right: 50px;
+    padding-right: 72px;
     float: right;
     font: 14px "Times New Roman"
 }
@@ -106,9 +112,14 @@ li {
     font: 13px "Times New Roman";
     color: #2c2c2c;
 }
+
+.products {
+    text-decoration: underline;
+}
 .rights {
     display: inline-block;
     padding-left: 170px;
     font: 13px "Times New Roman";
-
 }
+
+
