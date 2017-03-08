@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 * {
     margin:0;
     padding:0;
 }
 
+body {
+
+}
 
 .container-upper-menu {
     width: 966px;
@@ -16,7 +20,6 @@
 .upper-menu {
     display: inline-block;
     vertical-align: middle;
-    background: #535252;
     padding-left: 25px;
     padding-right: 75px;
     line-height: 40px;
@@ -24,8 +27,16 @@
 
 .upper-menu a {
     text-decoration: none;
-    font: 15px "Times New Roman";
+    font: 15px 'Open Sans';
+    font-weight: semi-bold;
     color: #ffffff;
+}
+
+.upper-menu:hover {
+    color: white;
+    background: #454545;
+    border-left: 1px solid #838383;
+    border-right: 1px solid #838383;
 }
 
 .left_menu {
@@ -36,26 +47,28 @@
     margin-top: 43px;
 }
 
-.telephones {
-    box-sizing: border-box;
-
-}
-
 .left_menu a {
     display: block;
     text-decoration: none;
+    font: 15px 'Open Sans';
     color: #656363;
     border: 1px solid #c8c8c8;
     padding: 8px 14px;
 }
 
+.left_menu a:hover {
+    padding-left: 30px;
+}
+
 
 .site {
     width: 1100px;
-    height: 900px;
+    height: 1000px;
     background-color: #ffffff;
     margin-left: 150px;
     position: fixed;
+    border-left: 1px solid #dbdbdb;
+    border-right: 1px solid #dbdbdb;
 }
 
 .content {
@@ -74,24 +87,28 @@ li {
 .bycicle {
     width: 500px;
     float: right;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-right: 150px;
-    padding-left: 70px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    padding-right: 85px;
+    padding-left: 85px;
+    margin-right: 85px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 1px solid #c8c8c8;
 }
 
 .lorem {
-    padding-left: 350px;
+    padding-left: 340px;
     padding-right: 72px;
     float: right;
-    font: 14px "Times New Roman"
+    font: 14px 'Open Sans'
 }
 
 .container_footer {
     height: 40px;
     width: 967px;
     background-color: #e1e1e1;
-    margin-top: 650px;
+    margin-top: 670px;
     margin-left: 50px;
     position: fixed;
 }
@@ -99,7 +116,7 @@ li {
 .footer_menu {
     display: inline-block;
     vertical-align: middle;
-    font: 13px "Times New Roman";
+    font: 13px 'Open Sans';
     color: #a8a8a8;
     background: #e1e1e1 ;
     padding-left: 25px;
@@ -109,17 +126,18 @@ li {
 
 .footer_menu a {
     text-decoration: none;
-    font: 13px "Times New Roman";
+    font: 13px 'Open Sans';
     color: #2c2c2c;
 }
 
-.products {
+.footer_menu a:hover {
     text-decoration: underline;
 }
+
 .rights {
     display: inline-block;
     padding-left: 170px;
-    font: 13px "Times New Roman";
+    font: 13px 'Open Sans';
 }
 
 
