@@ -1,0 +1,18 @@
+table {
+    width: 240px;
+    float: left;
+    display: block;
+    margin-left: 50px;
+    margin-top: 43px;
+    border-collapse: collapse;
+}
+
+table a {
+    display: block;
+    ali font: 15px 'Open Sans';
+    color: #656363;
+    border: 1px solid #c8c8c8;
+    padding: 8px 14px;
+}
+
+}
