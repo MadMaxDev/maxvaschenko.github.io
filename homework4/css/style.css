@@ -3,19 +3,18 @@
     padding: 0;
 }
 
-.site {
+.wrapper {
+    position: relative;
     width: 1000px;
     height: 1263px;
-    margin-left: 14%;
-    margin-right: 14%;
-    background-color: olivedrab;
+    margin: 0 auto;
 }
 
 .header {
+    position: absolute;
     height: 170px;
     width: 1000px;
     background-color: white;
-    margin-top: 30px;
 }
 
 .logo {
@@ -23,6 +22,7 @@
     height: 164px;
     width: 283px;
     margin-left: 90px;
+    margin-top: 5px;
 }
 
 .contacts {
@@ -41,21 +41,111 @@
 }
 
 .countries {
+    list-style: none;
+    margin-top: 110px;
+    margin-right: 40px;
+}
+
+.countries li {
+    float: right;
+    margin-right: 13px;
+}
+
+.countries li a {
+    display: block;
+    text-align: center;
+    padding-top: 44px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 55px;
+    width: 40px;
+    font: 10px 'Tahoma';
+}
+
+.countries .india a {
+    background-image: url("../img/india.png");
+}
+
+.countries .nepal a {
+    background-image: url("../img/nepal.png");
+}
+
+.countries .tibet a {
+    background-image: url("../img/tibet.png")
+}
+
+.countries .butan a {
+    background-image: url("../img/butan.png");
+}
+
+.countries .shrilanka a {
+    background-image: url("../img/srilanka.png");
+}
+
+.countries .maldivi a {
+    background-image: url("../img/maldiv.png");
+}
+
+.shrilanka li {
+    margin-right: 0;
+    width: 998px;
+}
+
+.header_img {
     position: absolute;
-    margin: auto;
-    padding-top: 100px;
-    padding-left: 630px;
+    margin-top: 170px;
 }
 
-.countries_url {
+/*Главное меню*/
+
+.main_menu {
+    width: 1000px;
+    padding-top: 406px;
+    position: absolute;
+    z-index: 1;
+
+}
+
+.main_menu li {
+    padding-right: 35px;
+    padding-left: 35px;
+    float: left;
     position: relative;
-    vertical-align: bottom;
+    text-align: center;
+    list-style: none;
+    background: #343434;
+    height: 30px;
+    line-height: 30px;
 }
 
-.india {
-    display: inline-block;
+.main_menu a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
-.nepal {
-    display: inline-block;
+.main_menu li ul {
+    display: none;
+    position: absolute;
+    width: 200px;
+
 }
+
+.main_menu li:hover ul {
+    display: block;
+    left: 0px;
+}
+
+/*.countries {*/
+/*position: relative;*/
+/*display: inline-block;*/
+/*margin: auto;*/
+/*margin-top: 100px;*/
+/*margin-left: 630px;*/
+/*}*/
+
+/*.countries_url {*/
+/*position: absolute;*/
+/*vertical-align: bottom;*/
+/*}*/
+
+
