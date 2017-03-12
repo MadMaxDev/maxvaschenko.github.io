@@ -64,14 +64,15 @@
 }
 
 .content {
+    position: absolute;
     height: 400px;
     margin-top: 170px;
 }
 
 .site {
-    position: absolute;
+    position: relative;
     width: 1060px;
-    height: 940px;
+    height: 930px;
     background-color: #ffffff;
     margin-left: auto;
     margin-right: auto;
@@ -115,7 +116,8 @@ li {
     height: 40px;
     width: 967px;
     background-color: #e1e1e1;
-    margin-top: 260px;
+    margin-top: 830px;
+    margin-bottom: 60px;
     margin-left: 50px;
     position: absolute;
 }
