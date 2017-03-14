@@ -3,10 +3,14 @@
     padding: 0;
 }
 
+body {
+    background-color: #5d5d5d;
+}
 .wrapper {
     position: relative;
+    background-color: #ffffff;
     width: 1000px;
-    height: 1263px;
+    height: 987px;
     margin: 0 auto;
 }
 
@@ -26,6 +30,8 @@
 }
 
 .contacts {
+    font: 12px 'Tahoma';
+    color: #009999;
     float: right;
     padding-right: 35px;
     padding-top: 15px;
@@ -38,12 +44,15 @@
     z-index: 1;
     padding-top: 110px;
     padding-left: 102px;
+    font: 12px 'Tahoma';
+    color: #009999;
 }
 
 .countries {
     list-style: none;
+    height: 55px;
     margin-top: 110px;
-    margin-right: 40px;
+    margin-right: 24px;
 }
 
 .countries li {
@@ -58,8 +67,8 @@
     background-position: center top;
     background-repeat: no-repeat;
     height: 55px;
-    width: 40px;
     font: 10px 'Tahoma';
+    min-width: 55px;
 }
 
 .countries .india a {
@@ -135,17 +144,72 @@
     left: 0px;
 }
 
-/*.countries {*/
-/*position: relative;*/
-/*display: inline-block;*/
-/*margin: auto;*/
-/*margin-top: 100px;*/
-/*margin-left: 630px;*/
-/*}*/
+/*Content*/
 
-/*.countries_url {*/
-/*position: absolute;*/
-/*vertical-align: bottom;*/
-/*}*/
+.container_content {
+    position: absolute;
+    margin-top: 437px;
+    width: 1000px;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: stretch;
+}
 
+.left_column {
+    width: 210px;
+    order: 1;
+    background-color: #edeef0;
+    border: 1px solid #c7cacf;
+}
 
+.center_column {
+    order: 2;
+}
+
+.right_column {
+    width: 210px;
+    order: 3;
+    margin-left: 790px;
+    padding-top: 436px;
+    background-color: #edeef0;
+    border: 1px solid #c7cacf;
+    height: 550px;
+}
+
+.info {
+    font: 18px 'Tahoma';
+    color: #333333;
+    text-align: center;
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+
+.left_column_text {
+    font: 14px 'Tahoma';
+    color: #333333;
+    padding-right: 17px;
+    padding-left: 17px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.news {
+    font: 18px 'Tahoma';
+    color: #333333;
+    text-align: center;
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+
+.right_column_text {
+    font: 14px 'Tahoma';
+    color: #333333;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 17px;
+    padding-left: 17px;
+
+}
