@@ -83,7 +83,9 @@
     background-image: url("../img/background.jpg");
     height: 1030px;
     width: 1216px;
-    position: absolute;
+    display: flex;
+    min-height: 100%;
+    align-items: center;
 }
 
 .main_menu { /*главное меню*/
@@ -92,10 +94,6 @@
     background-color: rgba(0, 0, 0, .5); /*прозрачность*/
     margin: 0 auto;
     position: relative; /*материнский блок*/
-    margin-top: 215px;
-    margin-right: 350px;
-    margin-left: 350px;
-    margin-bottom: 200px;
 }
 
 .header {
