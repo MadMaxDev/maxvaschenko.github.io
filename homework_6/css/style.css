@@ -27,15 +27,23 @@
 }
 
 .phone_number {
+    padding-top: 2px;
+    margin-left: -27px;
     width: 127px;
     font: 18px 'Arial';
-    color: #cccccc;
+    color: #5e696d;
     line-height: 26px;
+}
+
+.registration_menu {
+    margin-right: 14px;
 }
 
 .registration_form { /*Форма регистрации вся*/
     background: linear-gradient(to bottom, #1e6383, #0c3357);
     height: 26px;
+    width: 497px;
+    margin-left: 48px;
     line-height: 26px;
     border-radius: 4px;
     box-shadow: 3px 3px 5px #cccccc;
@@ -49,7 +57,7 @@
 
 .text_window { /*Текстовае поле ввода*/
     height: 14px;
-    width: 113px;
+    width: 109px;
     margin-top: -2px;
 }
 
@@ -60,6 +68,8 @@
 }
 
 .text_forgot_password { /*Текст забыли пароль*/
+    margin-left: 21px;
+    margin-bottom: 2px;
     font: 12px 'Lucida Sans Unicode';
     color: #bfbfbf;
     padding-right: 10px;
@@ -70,6 +80,15 @@
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.empty {
+    width: 910px;
+    height: 135px;
+    border: 1px solid black;
+    margin-top: 12px;
+    margin-left: 47px;
+    border-radius: 10px;
 }
 
 /*меню навигации*/
