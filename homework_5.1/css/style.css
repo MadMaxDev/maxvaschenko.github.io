@@ -85,6 +85,7 @@
 .container_main_menu {
     background-image: url("../img/background.jpg");
     width: 1216px;
+    min-height: 650px;
     display: flex;
     justify-content: center;
     align-items: center;
