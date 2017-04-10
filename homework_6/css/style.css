@@ -190,7 +190,7 @@ nav li:first-child {
 }
 
 nav li:hover {
-    background-color: #124366;
+    background: linear-gradient(to bottom, #206584, #0c3458);
     border-radius: 25px;
 }
 
@@ -280,7 +280,7 @@ nav a:hover {
 }
 
 .production_names a {
-    font: bold 12px 'Lucida Sans Unicode';
+    font: normal 12px 'Lucida Sans Unicode';
     color: #465961;
     text-decoration: none;
     margin-left: 4px;
@@ -288,6 +288,7 @@ nav a:hover {
 
 .production_names a:hover {
     font: bold 14px 'Arial';
+    font-style: italic;
     color: #0c3256;
     text-decoration: underline;
 }
@@ -298,10 +299,11 @@ section {
     flex-grow: 3;
     width: 500px;
     height: 625px;
-    background-color: #c8d0d4;
+    background: linear-gradient(to top, #93a5af, #e3e7e8);
     margin-top: 15px;
     margin-left: 9px;
     padding-bottom: 20px;
+    border-radius: 3px;
 }
 
 .container_products {
@@ -332,6 +334,7 @@ section {
     background-color: white;
     padding-left: 30px;
     border-radius: 10px;
+    border: 1px solid #697b8b;
 }
 
 .goodyear {
@@ -343,6 +346,7 @@ section {
 .extreme {
     font: bold 12px 'Lucida Sans Unicode';
     text-align: center;
+    margin-bottom: 3px;
 }
 
 .price1 {
@@ -373,6 +377,7 @@ section {
     background-color: white;
     padding-left: 30px;
     border-radius: 10px;
+    border: 1px solid #697b8b;
 }
 
 .nokian {
@@ -384,6 +389,7 @@ section {
 .hakkapelita {
     font: bold 12px 'Lucida Sans Unicode';
     text-align: center;
+    margin-bottom: 3px;
 }
 
 .price2 {
@@ -413,6 +419,7 @@ section {
     background-color: white;
     padding-left: 30px;
     border-radius: 10px;
+    border: 1px solid #697b8b;
 }
 
 .hankook {
@@ -424,6 +431,7 @@ section {
 .r14 {
     font: bold 12px 'Lucida Sans Unicode';
     text-align: center;
+    margin-bottom: 3px;
 }
 
 .price3 {
@@ -511,12 +519,14 @@ button {
     color: white;
     border-radius: 20px;
     border: 0;
+    box-shadow: 1px 2px 6px #697b8b;
 }
 
 .images {
     width: 700px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
