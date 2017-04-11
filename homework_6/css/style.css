@@ -115,7 +115,7 @@ nav {
     display: inline-block;
     width: 910px;
     height: 33px;
-    background: linear-gradient(to bottom, #505860, #010101);
+    background-image: linear-gradient(to top, #000000 0%, #576068 100%);
     margin-left: 47px;
     border-radius: 3px;
 }
@@ -138,7 +138,8 @@ nav a {
     text-decoration: none;
     height: 25px;
     margin-top: 6px;
-    font: bold 14px 'Lucida Sans Unicode';
+    font: 14px 'Lucida Sans Unicode';
+    font-weight: 600;
     display: block;
     color: #b1bcc0;
 }
@@ -281,6 +282,7 @@ nav a:hover {
 
 .production_names a {
     font: normal 12px 'Lucida Sans Unicode';
+    height: 18px;
     color: #465961;
     text-decoration: none;
     margin-left: 4px;
@@ -288,6 +290,7 @@ nav a:hover {
 
 .production_names a:hover {
     font: bold 14px 'Arial';
+    height: 18px;
     font-style: italic;
     color: #0c3256;
     text-decoration: underline;
@@ -339,14 +342,17 @@ section {
 
 .goodyear {
     font: 15px 'Lucida Sans Unicode';
+    font-weight: 600;
+    height: 16px;
     color: #206988;
     text-align: center;
 }
 
 .extreme {
-    font: bold 12px 'Lucida Sans Unicode';
+    font: 12px 'Lucida Sans Unicode';
+    font-weight: 500px;
     text-align: center;
-    margin-bottom: 3px;
+    margin-bottom: 1px;
 }
 
 .price1 {
@@ -382,14 +388,17 @@ section {
 
 .nokian {
     font: 15px 'Lucida Sans Unicode';
+    font-weight: 600;
+    height: 16px;
     color: #206988;
     text-align: center;
 }
 
 .hakkapelita {
-    font: bold 12px 'Lucida Sans Unicode';
+    font: 12px 'Lucida Sans Unicode';
+    font-weight: 500;
     text-align: center;
-    margin-bottom: 3px;
+    margin-bottom: 1px;
 }
 
 .price2 {
@@ -424,14 +433,17 @@ section {
 
 .hankook {
     font: 15px 'Lucida Sans Unicode';
+    font-weight: 600;
+    height: 16px;
     color: #206988;
     text-align: center;
 }
 
 .r14 {
-    font: bold 12px 'Lucida Sans Unicode';
+    font: 12px 'Lucida Sans Unicode';
+    font-weight: 500;
     text-align: center;
-    margin-bottom: 3px;
+    margin-bottom: 1px;
 }
 
 .price3 {
@@ -503,6 +515,17 @@ section {
     margin-top: 10px;
 }
 
+.tire_form label {
+    display: block;
+    font: 13px 'Lucida Sans Unicode';
+    color: #465961;
+}
+
+.tire_form input {
+    margin-top: 2px;
+    margin-right: 14px;
+}
+
 .tire_form a {
     margin-left: 13px;
     text-decoration: none;
@@ -513,7 +536,7 @@ section {
 button {
     height: 25px;
     width: 80px;
-    margin-top: 22px;
+    margin-top: 19px;
     margin-left: 35px;
     background: linear-gradient(to bottom, #1f6585, #0d3458);
     color: white;
