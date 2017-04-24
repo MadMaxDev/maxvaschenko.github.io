@@ -139,7 +139,7 @@ nav a {
     height: 25px;
     margin-top: 6px;
     font: 14px 'Lucida Sans Unicode';
-    font-weight: 600;
+    font-weight: 500;
     display: block;
     color: #b1bcc0;
 }
@@ -179,6 +179,7 @@ nav li:first-child {
 }
 
 .bucket_items {
+    margin-top: 17px;
     font: 12px 'Arial';
     color: #0d5a8f;
 }
@@ -531,6 +532,10 @@ section {
     text-decoration: none;
     font: 12px 'Lucida Sans Unicode';
     color: #465961;
+}
+
+label {
+    margin-bottom: 8px;
 }
 
 button {
