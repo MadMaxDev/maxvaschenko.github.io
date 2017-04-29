@@ -61,3 +61,52 @@ header {
     padding-top: 75px;
     margin-left: 37%;
 }
+
+/*about company*/
+
+address {
+    height: 600px;
+    background: #735080;
+}
+
+.container_address {
+    width: 320px;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+
+.address-item {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.address-item img {
+    height: 25px;
+}
+
+.about-company {
+    margin-left: 25px;
+}
+
+.about-company span {
+    font: 24px 'gothicregular';
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #14191c;
+}
+
+.about-company p {
+    font: 16px 'Open Sans Light';
+    color: white;
+    text-shadow: 1px 1px 1px #14191c;
+    width: 200px;
+}
+
+.read-more {
+    text-align: right;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.read-more span {
+    font: 24px 'gothicregular';
+}
