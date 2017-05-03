@@ -1,4 +1,8 @@
-@media screen and (min-width: 321px) and (max-width: 480px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .home_all_screens {
+        display: none;
+    }
+
     .home {
         display: flex;
         justify-content: center;
@@ -13,6 +17,10 @@
     .container_home {
         width: 50px;
         border-bottom: 2px solid #edbfff;
+    }
+
+    .home:hover div.upper_menu-links {
+        display: block;
     }
 
     nav a span {
@@ -44,4 +52,13 @@
         border-bottom: 2px solid #edbfff;
     }
 
+    .upper_menu-links {
+        display: none;
+    }
+
+    .longer-text {
+        visibility: visible;
+    }
+
 }
+
