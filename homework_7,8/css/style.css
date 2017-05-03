@@ -105,7 +105,6 @@ header {
 
 /*about company*/
 address {
-    height: 600px;
     background: #735080;
 }
 
@@ -126,6 +125,7 @@ address {
 
 .about-company {
     margin-left: 25px;
+    width: 82%;
 }
 
 .about-company-header {
@@ -151,11 +151,14 @@ address {
 .read-more {
     text-align: right;
     margin-left: 20px;
-    margin-top: 20px;
 }
 
 .read-more span {
     font: 24px 'gothicregular';
+}
+
+.last {
+    margin-bottom: 65px;
 }
 
 .read-more span:hover {
@@ -177,7 +180,7 @@ article {
 }
 
 .card {
-    width: 255px;
+    width: 82% px;
     height: 275px;
     background: #ffffff;
     margin-left: 10%;
@@ -209,9 +212,13 @@ article {
 .card-text {
     margin-top: 14px;
     margin-left: 13%;
-    width: 177px;
+    width: 80%;
     font: 16px 'Open Sans Light';
     color: #454545;
+}
+
+.longer-card-text {
+    visibility: hidden;
 }
 
 .slider_rounds {

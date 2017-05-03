@@ -56,8 +56,13 @@
         display: none;
     }
 
+    /*About company*/
     .longer-text {
         visibility: visible;
+    }
+
+    .read-more {
+        margin-top: 20px;
     }
 
 }
