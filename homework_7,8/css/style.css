@@ -324,6 +324,10 @@ article {
     margin-left: 13%;
 }
 
+.container_logos_480 {
+    display: none;
+}
+
 footer {
     background-image: url("../img/footer-img.jpg");
     background-position: bottom center;
