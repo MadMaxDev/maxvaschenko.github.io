@@ -328,6 +328,10 @@ article {
     display: none;
 }
 
+.container_news_categories {
+    display: none;
+}
+
 footer {
     background-image: url("../img/footer-img.jpg");
     background-position: bottom center;

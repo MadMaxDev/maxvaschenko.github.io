@@ -98,5 +98,35 @@
         margin-top: 37px;
         padding-bottom: 42px;
     }
+
+    /*NEWS CATEGORIES*/
+    .container_news_categories {
+        display: block;
+        background-color: #ececec;
+        padding-top: 80px;
+        padding-bottom: 465px;
+    }
+
+    .news_categories {
+        display: flex;
+        flex-direction: column;
+        width: 450px;
+        margin: 0 auto;
+    }
+
+    .news_categories p {
+        font: 24px 'gothicregular';
+        color: #454545;
+        margin-bottom: 10px;
+    }
+
+    .news_categories-text span {
+        font: 16px 'Open Sans';
+        color: #787878;
+    }
+
+    .logos {
+        box-shadow: none;
+    }
 }
 
