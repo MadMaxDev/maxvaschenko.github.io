@@ -116,7 +116,6 @@ address {
 
 .address-item {
     display: flex;
-    margin-bottom: 30px;
 }
 
 .address-item img {
@@ -167,20 +166,19 @@ address {
 
 /*face slider+updates*/
 article {
-    height: 785px;
     background: #f9f9f9;
     border-bottom: 2px solid #e6e6e6;
 }
 
 .container_cards {
-    width: 320px;
+    width: 82%;
     height: 275px;
     margin: 0 auto;
     padding-top: 70px;
 }
 
 .card {
-    width: 82% px;
+    width: 82%;
     height: 275px;
     background: #ffffff;
     margin-left: 10%;
@@ -222,8 +220,8 @@ article {
 }
 
 .slider_rounds {
-    margin-left: 47%;
-    padding-top: 23px;
+    margin-left: 41%;
+    padding-top: 90px;
 }
 
 /*UPDATES*/
@@ -231,9 +229,16 @@ article {
     width: 320px;
     margin: 0 auto;
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 95px;
 }
 
-.recent {
+.container_updates:first-child {
+    justify-content: flex-start;
+}
+
+.recent p {
     font: 30px 'gothicregular';
     color: #454545;
 }
@@ -244,6 +249,7 @@ article {
     border-radius: 20px;
     background-image: url("../img/icon-background.png");
     background-position: 110px 0;
+    margin-right: 20px;
 }
 
 .round_icon2 {
@@ -252,6 +258,7 @@ article {
     border-radius: 20px;
     background-image: url("../img/icon-background.png");
     background-position: 110px 70px;
+    margin-right: 20px;
 }
 
 .round_icon3 {
@@ -260,13 +267,15 @@ article {
     border-radius: 20px;
     background-image: url("../img/icon-background.png");
     background-position: 149px 45px;
+    margin-right: 20px;
 }
 
 .update {
     display: flex;
-    justify-content: space-around;
-    width: 305px;
+    justify-content: flex-start;
+    width: 320px;
     margin-top: 20px;
+    margin-right: 4%;
 }
 
 .update-header {
@@ -281,6 +290,11 @@ article {
     text-align: right;
     font: 18px 'gothicregular';
     margin-top: 25px;
+    margin-left: 71%;
+}
+
+.year {
+    visibility: hidden;
 }
 
 /*LOGOS*/

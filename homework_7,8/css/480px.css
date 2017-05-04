@@ -65,5 +65,25 @@
         margin-top: 20px;
     }
 
+    /*CARD*/
+    .card {
+        height: 315px;
+    }
+
+    .longer-card-text {
+        visibility: visible;
+    }
+
+    .slider_rounds {
+        padding-top: 130px;
+    }
+
+    .year {
+        visibility: visible;
+    }
+
+    .container_updates {
+        width: 335px;
+    }
 }
 
