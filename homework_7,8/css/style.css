@@ -45,18 +45,7 @@ header {
     color: #51395b;
 }
 
-.home {
-    font: 300 24px 'gothicregular';
-    color: white;
-    border-bottom: 2px solid #edbfff;
-    width: 248px;
-    padding-left: 4px;
-    padding-right: 9px;
-    padding-top: 30px;
-    margin-left: 42%;
-}
-
-.upper_menu-items a {
+.upper_menu-items {
     display: none;
 }
 

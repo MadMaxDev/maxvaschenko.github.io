@@ -3,58 +3,58 @@
         display: none;
     }
 
-    .home {
-        display: flex;
-        justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        width: 250px;
-        border-bottom: none;
-    }
-
-    .container_home {
-        width: 50px;
-        border-bottom: 2px solid #edbfff;
-    }
-
-    .home:hover div.upper_menu-links {
-        display: block;
-    }
-
-    nav a span {
-        margin-left: 7px;
-    }
-
     .upper_menu-items {
-        width: 250px;
         margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        background-color: rgba(72, 59, 78, 0.8);
-        border-radius: 7px;
+        display: block;
+        width: 250px;
+        text-align: center;
     }
 
     .upper_menu-items a {
+        text-decoration: none;
         padding-bottom: 10px;
         padding-top: 10px;
-        display: flex;
-        justify-content: center;
-        text-decoration: none;
         color: white;
         font: 24px 'gothicregular';
+        line-height: 46px;
     }
 
-    .upper_menu-items a:hover {
-        background-color: rgba(41, 32, 47, 0.8);
-        border-bottom: 2px solid #edbfff;
+    .upper_menu-items li {
+        list-style: none;
+        background-color: rgba(72, 59, 78, 0.8);
+        height: 46px;
+        border-bottom: 1px solid #36283e;
+        border-top: 1px solid #513d58;
+    }
+
+    .upper_menu-items li:first-child {
+        border-radius: 7px;
     }
 
     .upper_menu-links {
         display: none;
+        position: absolute;
+        width: 250px;
     }
+
+    .upper_menu-links li {
+        width: 250px;
+    }
+
+    .upper_menu-items li:hover .upper_menu-links {
+        display: block;
+    }
+
+    .home-button span {
+        border-bottom: 2px solid #edbfff;
+    }
+
+    .upper_menu-items li:hover {
+        background-color: rgba(41, 32, 47, 0.8);
+        border-bottom: 2px solid #edbfff;
+    }
+
+
 
     /*About company*/
     .longer-text {
