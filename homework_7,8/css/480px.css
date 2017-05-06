@@ -103,8 +103,7 @@
     .container_news_categories {
         display: block;
         background-color: #ececec;
-        padding-top: 80px;
-        padding-bottom: 465px;
+        padding-bottom: 90px;
     }
 
     .news_categories {
@@ -112,6 +111,10 @@
         flex-direction: column;
         width: 450px;
         margin: 0 auto;
+    }
+
+    .news_categories {
+        padding-top: 65px;
     }
 
     .news_categories p {
@@ -127,6 +130,23 @@
 
     .logos {
         box-shadow: none;
+    }
+
+    /*FOOTER*/
+    .footer_menu {
+        display: flex;
+        justify-content: space-between;
+        width: 450px;
+        margin: 0 auto;
+        padding-top: 50px;
+
+    }
+
+    .footer_menu a {
+        font: 20px 'gothicregular';
+        color: white;
+        text-decoration: none;
+        text-shadow: 1px 1px 1px #58585d;
     }
 }
 

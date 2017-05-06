@@ -338,6 +338,10 @@ footer {
     height: 200px;
 }
 
+.footer_menu {
+    display: none;
+}
+
 .designed {
     font: 12px 'Open Sans Light';
     color: white;
