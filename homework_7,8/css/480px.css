@@ -27,26 +27,35 @@
         border-top: 1px solid #513d58;
     }
 
-    .upper_menu-items li:first-child {
-        border-radius: 7px;
-    }
-
     .upper_menu-links {
         display: none;
         position: absolute;
         width: 250px;
+        margin-top: -1px;
     }
 
     .upper_menu-links li {
         width: 250px;
     }
 
-    .upper_menu-items li:hover .upper_menu-links {
-        display: block;
-    }
-
     .home-button span {
         border-bottom: 2px solid #edbfff;
+    }
+
+    .home {
+        border-radius: 7px;
+    }
+
+    .home:hover {
+        border-radius: 7px 7px 0 0;
+    }
+
+    .upper_menu-links-last {
+        border-radius: 0 0 7px 7px;
+    }
+
+    .upper_menu-items li:hover .upper_menu-links {
+        display: block;
     }
 
     .upper_menu-items li:hover {
@@ -54,8 +63,25 @@
         border-bottom: 2px solid #edbfff;
     }
 
+    .slider {
+        padding-top: 28px;
+        margin-top: 20px;
+        background-color: rgba(106, 101, 115, 0.3);
+    }
 
+    .iphone {
+        display: block;
+        height: 220px;
+    }
 
+    .iphone img {
+        height: 260px;
+    }
+
+    .slider-rounds {
+        padding-top: 24px;
+        margin-left: 41%;
+    }
     /*About company*/
     .longer-text {
         visibility: visible;

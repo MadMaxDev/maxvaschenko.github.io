@@ -69,6 +69,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding-top: 125px;
+    height: 260px;
 }
 
 .slider img {
@@ -85,6 +86,10 @@ header {
     font: 500 18px 'gothicregular';
     color: #edbfff;
     text-shadow: 0 2px 2px #625c6b;
+}
+
+.iphone {
+    display: none;
 }
 
 .slider-rounds {
