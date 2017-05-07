@@ -1,0 +1,155 @@
+@media screen and (min-width: 961px) {
+    .home_all_screens {
+        display: none;
+    }
+
+    header {
+        height: 850px;
+    }
+
+    .pingbuller span {
+        margin-left: 0;
+    }
+
+    .container_header {
+        width: 960px;
+        display: flex;
+    }
+
+    .upper_menu_768px {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+        margin-left: 328px;
+        width: 475px;
+    }
+
+    .upper_menu_768px a {
+        font: 24px 'gothicregular';
+        color: #ffffff;
+        text-decoration: none;
+        text-shadow: 1px 1px 1px #575061;
+    }
+
+    .slider {
+        height: 400px;
+        background-color: rgba(106, 101, 115, 0.3);
+        margin-top: 170px;
+        padding-top: 0;
+    }
+
+    .iphone {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .iphone img {
+        height: 420px;
+    }
+
+    .slider_text {
+        width: 500px;
+    }
+
+    .slider_text_top {
+        font: 60px 'gothicregular';
+    }
+
+    .slider_text_bottom {
+        font: 32px 'gothicregular';
+        color: #edbfff;
+    }
+
+    .slider_text_under {
+        visibility: visible;
+        font: 18px 'Open Sans Light';
+        color: #ffffff;
+    }
+
+    .slider_text_under-960 {
+        visibility: visible;
+        font: 18px 'Open Sans Light';
+        color: #ffffff;
+    }
+
+    .slider-rounds {
+        padding-top: 90px;
+        margin-left: 75%;
+    }
+
+    /*ABOUT COMPANY*/
+    .container_address {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 80px;
+    }
+
+    .img_320px {
+        display: none;
+    }
+
+    .longer-text {
+        visibility: visible;
+    }
+
+    .longer-text-768 {
+        visibility: visible;
+    }
+
+    .container_cards {
+        width: 350px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .card {
+        width: 315px;
+    }
+
+    .container_updates {
+        margin: 0;
+    }
+
+    article {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 100px;
+        height: 490px;
+    }
+
+    .slider_rounds {
+        display: none;
+    }
+
+    .slider_rounds-768 {
+        display: flex;
+        justify-content: center;
+        margin-left: 10%;
+        margin-top: 25px;
+    }
+
+    .card-text {
+        height: 179px;
+    }
+
+    /*LOGOS*/
+    .container_logos {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding-top: 27px;
+        height: 120px;
+    }
+
+    .dg {
+        margin: 0;
+    }
+
+    .awsm {
+        margin: 0;
+    }
+
+    .rvca {
+        margin: 0;
+    }
+}

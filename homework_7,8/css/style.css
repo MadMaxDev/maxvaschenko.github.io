@@ -93,7 +93,11 @@ header {
 }
 
 .slider_text_under {
-    display: none;
+    visibility: hidden;
+}
+
+.slider_text_under-960 {
+    visibility: hidden;
 }
 
 .iphone {
