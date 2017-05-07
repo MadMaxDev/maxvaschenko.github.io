@@ -64,6 +64,7 @@
     }
 
     .slider {
+        height: 260px;
         padding-top: 28px;
         margin-top: 20px;
         background-color: rgba(106, 101, 115, 0.3);
@@ -84,6 +85,10 @@
     }
     /*About company*/
     .longer-text {
+        visibility: visible;
+    }
+
+    .longer-text-768 {
         visibility: visible;
     }
 

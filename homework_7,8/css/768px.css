@@ -60,4 +60,145 @@
         padding-top: 40px;
         margin-left: 44%;
     }
+
+    /*ABOUT OUR COMPANY*/
+    .longer-text {
+        display: none;
+    }
+
+    .longer-card-text {
+        display: none;
+    }
+
+    .longer-text-768 {
+        visibility: visible;
+    }
+
+    .container_address {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 80px;
+    }
+
+    .address-item {
+        width: 200px;
+    }
+
+    .about-company p {
+        width: 100%;
+    }
+
+    .container_cards {
+        width: 350px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .card {
+        width: 315px;
+    }
+
+    .container_updates {
+        margin: 0;
+    }
+
+    article {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 100px;
+        height: 490px;
+    }
+
+    .slider_rounds {
+        display: none;
+    }
+
+    .slider_rounds-768 {
+        display: flex;
+        justify-content: center;
+        margin-left: 10%;
+        margin-top: 25px;
+    }
+
+    .card-text {
+        height: 179px;
+    }
+
+    /*LOGOS*/
+    .container_logos {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding-top: 27px;
+        height: 120px;
+    }
+
+    .dg {
+        margin: 0;
+    }
+
+    .awsm {
+        margin: 0;
+    }
+
+    .rvca {
+        margin: 0;
+    }
+
+    /*NEWS CATEGORIES*/
+    .container_news_categories {
+        display: flex;
+        justify-content: space-between;
+        background-color: #ececec;
+        padding-bottom: 80px;
+        padding-left: 60px;
+    }
+
+    .news_categories {
+        display: flex;
+        flex-direction: column;
+        width: 450px;
+        margin: 0 auto;
+    }
+
+    .news_categories {
+        padding-top: 65px;
+        margin-right: 60px;
+    }
+
+    .news_categories p {
+        font: 24px 'gothicregular';
+        color: #454545;
+        margin-bottom: 10px;
+    }
+
+    .news_categories-text span {
+        font: 16px 'Open Sans';
+        color: #787878;
+    }
+
+    .news_categories-text-768 {
+        visibility: hidden;
+    }
+
+    /*FOOTER*/
+    .footer_menu {
+        display: flex;
+        justify-content: space-between;
+        width: 450px;
+        margin-left: 60px;
+        padding-top: 50px;
+
+    }
+
+    .footer_menu a {
+        font: 20px 'gothicregular';
+        color: white;
+        text-decoration: none;
+        text-shadow: 1px 1px 1px #58585d;
+    }
+
+    .authors {
+        margin-right: 60px;
+    }
 }
