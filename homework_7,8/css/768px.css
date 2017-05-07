@@ -1,0 +1,63 @@
+@media screen and (min-width: 769px) and (max-width: 960px) {
+    header {
+        height: 800px;
+    }
+
+    .container_header {
+        width: 768px;
+    }
+
+    .header-txt {
+        margin-left: 0;
+    }
+
+    .home_all_screens {
+        display: none;
+    }
+
+    .upper_menu_768px {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+
+    .upper_menu_768px a {
+        font: 24px 'gothicregular';
+        color: #ffffff;
+        text-decoration: none;
+        text-shadow: 1px 1px 1px #575061;
+    }
+
+    /*SLIDER*/
+    .slider {
+        height: 400px;
+        background-color: rgba(106, 101, 115, 0.3);
+        margin-top: 80px;
+        padding-top: 0;
+    }
+
+    .slider_text_under {
+        display: block;
+        font: 16px 'Open Sans Light';
+        color: #ffffff;
+
+    }
+
+    .slider_text {
+        width: 280px;
+    }
+
+    .iphone {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .iphone img {
+        height: 420px;
+    }
+
+    .slider-rounds {
+        padding-top: 40px;
+        margin-left: 44%;
+    }
+}

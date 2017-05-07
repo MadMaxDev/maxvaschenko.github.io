@@ -49,6 +49,10 @@ header {
     display: none;
 }
 
+.upper_menu_768px {
+    display: none;
+}
+
 .home_all_screens {
     margin: 0 auto;
     width: 48px;
@@ -86,6 +90,10 @@ header {
     font: 500 18px 'gothicregular';
     color: #edbfff;
     text-shadow: 0 2px 2px #625c6b;
+}
+
+.slider_text_under {
+    display: none;
 }
 
 .iphone {
