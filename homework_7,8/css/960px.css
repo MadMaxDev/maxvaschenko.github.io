@@ -14,6 +14,8 @@
     .container_header {
         width: 960px;
         display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
     }
 
     .upper_menu_768px {
@@ -152,4 +154,73 @@
     .rvca {
         margin: 0;
     }
+
+    /*NEWS CATEGORIES*/
+    .container_news_categories {
+        display: flex;
+        justify-content: space-between;
+        background-color: #ececec;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .news_categories_first {
+        display: none;
+    }
+
+    .news_categories_second {
+        margin-right: 60px;
+    }
+
+    .news_categories_pingbuller {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        margin-right: 55px;
+    }
+
+    .news_categories_pingbuller-header-black {
+        font: 48px 'gothicregular';
+        color: #454545;
+    }
+
+    .news_categories_pingbuller-header-gray {
+        font: 48px 'gothicregular';
+        color: #b9b9b9;
+    }
+
+    .news_categories_pingbuller-copyright {
+        font: 16px 'Georgia';
+        color: #c5c5c5;
+        font-style: italic;
+    }
+
+    .news_categories_pingbuller-text {
+        font: 16px 'Open Sans Light';
+        color: #787878;
+    }
+
+    .news_categories-480px {
+        display: none;
+    }
+
+    .news_categories-960px {
+        display: block;
+        font: 30px 'gothicregular';
+        color: #454545;
+    }
+
+    .news_categories p {
+        font: 30px 'gothicregular';
+        color: #454545;
+    }
+
+    .news_categories-text span {
+        font: 16px 'Open Sans Light';
+        color: #787878;
+    }
+
+
+
+
 }

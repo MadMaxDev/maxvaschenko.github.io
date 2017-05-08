@@ -349,6 +349,14 @@ article {
     display: none;
 }
 
+.news_categories_pingbuller {
+    display: none;
+}
+
+.news_categories-960px {
+    display: none;
+}
+
 footer {
     background-image: url("../img/footer-img.jpg");
     background-position: bottom center;
