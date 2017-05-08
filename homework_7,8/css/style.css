@@ -76,6 +76,11 @@ header {
     height: 60px;
 }
 
+.slider_text {
+    height: 60px;
+    width: 200px;
+}
+
 .slider img {
     height: 34px;
 }
@@ -307,7 +312,8 @@ article {
     text-align: right;
     font: 18px 'gothicregular';
     margin-top: 25px;
-    margin-left: 71%;
+    width: 93px;
+    margin-left: 59%;
 }
 
 .year {
@@ -383,4 +389,3 @@ footer {
     width: 140px;
 }
 
-}

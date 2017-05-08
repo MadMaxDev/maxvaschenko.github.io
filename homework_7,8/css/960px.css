@@ -51,6 +51,7 @@
 
     .slider_text {
         width: 500px;
+        height: 235px;
     }
 
     .slider_text_top {
@@ -220,7 +221,33 @@
         color: #787878;
     }
 
+    /*FOOTER*/
+    footer {
+        display: flex;
+        justify-content: space-between;
+        height: 115px;
+    }
 
+    .footer_menu {
+        display: flex;
+        justify-content: space-between;
+        width: 450px;
+        margin-left: 10px;
+        padding-top: 50px;
+
+    }
+
+    .footer_menu a {
+        font: 20px 'gothicregular';
+        color: white;
+        text-decoration: none;
+        text-shadow: 1px 1px 1px #58585d;
+    }
+
+    .authors {
+        margin-right: 0;
+        padding-top: 50px;
+    }
 
 
 }
