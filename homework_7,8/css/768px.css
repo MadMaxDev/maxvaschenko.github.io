@@ -84,6 +84,18 @@
         width: 200px;
     }
 
+    .address-item-img {
+        margin-right: -3px;
+    }
+
+    .address-item-img-second {
+        margin-right: -3px;
+    }
+
+    .address-item-img-third {
+        margin-right: -3px;
+    }
+
     .about-company p {
         width: 100%;
     }

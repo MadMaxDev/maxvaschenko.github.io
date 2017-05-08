@@ -129,8 +129,22 @@ address {
     display: flex;
 }
 
-.address-item img {
-    height: 25px;
+.address-item-img {
+    height: 26px;
+    width: 25px;
+    background: url("../img/sprite.png") 0 -51px no-repeat;
+}
+
+.address-item-img-second {
+    height: 26px;
+    width: 25px;
+    background: url("../img/sprite.png") 0 -51px no-repeat;
+}
+
+.address-item-img-third {
+    height: 26px;
+    width: 25px;
+    background: url("../img/sprite.png") 0 -51px no-repeat;
 }
 
 .about-company {

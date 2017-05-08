@@ -87,8 +87,15 @@
         padding-top: 80px;
     }
 
-    .img_320px {
-        display: none;
+    .address-item-img-second {
+        background: url("../img/sprite.png") 0 0 no-repeat;
+        width: 29px;
+        height: 25px;
+    }
+
+    .address-item-img-third {
+        background: url("../img/sprite.png") 0 -24px no-repeat;
+        height: 27px;
     }
 
     .longer-text {
