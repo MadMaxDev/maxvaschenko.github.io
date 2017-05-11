@@ -390,11 +390,13 @@ footer {
 .designed {
     font: 12px 'Open Sans Light';
     color: white;
+    text-shadow: 0 2px 2px #625c6b;
 }
 
 .pingbull {
     font: 700 13px 'MyriadPro';
     color: white;
+    text-shadow: 0 2px 2px #625c6b;
 }
 
 .authors {

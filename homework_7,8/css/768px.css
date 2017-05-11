@@ -100,9 +100,13 @@
         width: 100%;
     }
 
+    .container_cards_updates {
+        display: flex;
+    }
+
     .container_cards {
         width: 350px;
-        margin: 0;
+        margin-right: 60px;
         padding: 0;
     }
 

@@ -34,9 +34,15 @@
         text-shadow: 1px 1px 1px #575061;
     }
 
+    .container_slider {
+        background-color: rgba(106, 101, 115, 0.3);
+    }
+
     .slider {
         height: 400px;
-        background-color: rgba(106, 101, 115, 0.3);
+        width: 960px;
+        margin: 0 auto;
+
         margin-top: 170px;
         padding-top: 0;
     }
@@ -77,8 +83,12 @@
     }
 
     .slider-rounds {
+        width: 960px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 170px;
         padding-top: 90px;
-        margin-left: 76%;
     }
 
     /*ABOUT COMPANY*/
@@ -111,12 +121,31 @@
 
     .container_cards {
         width: 350px;
-        margin: 0;
+        margin-right: 180px;
+        margin-left: 0;
         padding: 0;
     }
 
     .card {
         width: 430px;
+    }
+
+    .container_card_header {
+        display: flex;
+        justify-content: flex-start;
+        height: 30px;
+        padding-top: 20px;
+    }
+
+    .card-header {
+        width: 84px;
+        padding-top: 0;
+    }
+
+    .start-here {
+        width: 105px;
+        margin-top: 0px;
+        margin-left: 0px;
     }
 
     .container_updates {
@@ -128,7 +157,7 @@
         width: 960px;
         height: 490px;
         margin: 0 auto;
-        justify-content: space-between;
+        justify-content: center;
         padding-top: 100px;
     }
 
@@ -151,13 +180,31 @@
     .slider_rounds-768 {
         display: flex;
         justify-content: center;
-        width: 480px;
-        margin-left: 10%;
+        width: 430px;
         margin-top: 25px;
+        margin-left: 45px;
     }
 
     .card-text {
         height: 179px;
+        margin-top: 0px;
+        padding-top: 20px;
+    }
+
+    .slider_text_top {
+        text-shadow: 0 4px 4px #625c6b;
+    }
+
+    .slider_text_bottom {
+        text-shadow: 0 4px 4px #625c6b;
+    }
+
+    .slider_text_under {
+        text-shadow: 0 2px 2px #625c6b;
+    }
+
+    .slider_text_under-960 {
+        text-shadow: 0 2px 2px #625c6b;
     }
 
     /*LOGOS*/
@@ -184,12 +231,18 @@
     }
 
     /*NEWS CATEGORIES*/
+    .container_news_categories_main {
+        background-color: #ececec;
+        margin-top: 2px;
+    }
+
     .container_news_categories {
         display: flex;
         justify-content: center;
-        background-color: #ececec;
         padding-top: 100px;
         padding-bottom: 100px;
+        width: 960px;
+        margin: 0 auto;
     }
 
     .news_categories_first {
