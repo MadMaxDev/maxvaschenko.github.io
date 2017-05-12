@@ -24,7 +24,7 @@
         justify-content: space-between;
         margin-top: 15px;
         margin-left: 328px;
-        width: 475px;
+        width: 500px;
     }
 
     .upper_menu_768px a {
@@ -32,6 +32,13 @@
         color: #ffffff;
         text-decoration: none;
         text-shadow: 1px 1px 1px #575061;
+        height: 29px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .upper_menu_768px a:hover {
+        border-bottom: 2px solid #edbfff;
     }
 
     .container_slider {
@@ -92,6 +99,10 @@
     }
 
     /*ABOUT COMPANY*/
+    address {
+        height: 340px;
+    }
+
     .container_address {
         display: flex;
         width: 960px;
@@ -128,6 +139,8 @@
 
     .card {
         width: 430px;
+        height: 290px;
+        background: url("../img/card-background.png");
     }
 
     .container_card_header {
@@ -140,6 +153,7 @@
     .card-header {
         width: 84px;
         padding-top: 0;
+        text-shadow: 1px 0 1px #c3c3c3;
     }
 
     .start-here {
@@ -233,7 +247,8 @@
     /*NEWS CATEGORIES*/
     .container_news_categories_main {
         background-color: #ececec;
-        margin-top: 2px;
+        /*margin-top: 2px;*/
+        border-top: 1px solid #d8d8d8;
     }
 
     .container_news_categories {
@@ -279,6 +294,7 @@
     .news_categories_pingbuller-text {
         font: 16px 'Open Sans Light';
         color: #787878;
+        text-shadow: 1px 0 1px #c3c3c3;
     }
 
     .news_categories-480px {
@@ -289,16 +305,19 @@
         display: block;
         font: 30px 'gothicregular';
         color: #454545;
+        text-shadow: 1px 0 1px #c3c3c3;
     }
 
     .news_categories p {
         font: 30px 'gothicregular';
         color: #454545;
+        text-shadow: 1px 0 1px #c3c3c3;
     }
 
     .news_categories-text span {
         font: 16px 'Open Sans Light';
         color: #787878;
+        text-shadow: 1px 0 1px #c3c3c3;
     }
 
     /*FOOTER*/

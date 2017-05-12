@@ -23,7 +23,7 @@ header {
     background-image: url("../img/header-img.jpg");
     background-position: center top;
     height: 517px;
-    border-bottom: 2px solid #36283d;
+    border-bottom: 1px solid #36283d;
 }
 
 .container_header {
@@ -184,8 +184,10 @@ address {
     margin-left: 20px;
 }
 
-.read-more span {
+.read-more a {
     font: 24px 'gothicregular';
+    color: white;
+    text-decoration: none;
 }
 
 .last {
@@ -199,7 +201,7 @@ address {
 /*face slider+updates*/
 article {
     background: #f9f9f9;
-    border-bottom: 2px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
 }
 
 .container_cards {
@@ -245,6 +247,7 @@ article {
     width: 80%;
     font: 16px 'Open Sans Light';
     color: #454545;
+    text-shadow: 1px 0 1px #c3c3c3;
 }
 
 .longer-card-text {
@@ -277,6 +280,7 @@ article {
 .recent p {
     font: 30px 'gothicregular';
     color: #454545;
+    text-shadow: 1px 0 1px #c3c3c3;
 }
 
 .round_icon1 {
@@ -316,18 +320,26 @@ article {
 
 .update-header {
     font: 900 16px 'Open Sans';
+    text-shadow: 1px 0 1px #c3c3c3;
 }
 
 .posted-by {
     font: 16px 'Open Sans Light';
+    text-shadow: 1px 0 1px #c3c3c3;
 }
 
 .more-post {
     text-align: right;
     font: 18px 'gothicregular';
+    text-shadow: 1px 0 1px #c3c3c3;
     margin-top: 25px;
     width: 93px;
     margin-left: 59%;
+}
+
+.more-post a {
+    text-decoration: none;
+    color: #454545;
 }
 
 .year {
