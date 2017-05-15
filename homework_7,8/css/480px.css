@@ -83,7 +83,15 @@
         padding-top: 24px;
         margin-left: 41%;
     }
+
+    .slider-inner-round-1 {
+        display: none;
+    }
     /*About company*/
+    address {
+        height: 550px;
+    }
+
     .longer-text {
         visibility: visible;
     }

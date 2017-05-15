@@ -114,6 +114,10 @@ header {
     margin-left: 37%;
 }
 
+.slider-inner-round-1 {
+    display: none;
+}
+
 /*about company*/
 address {
     background: #735080;

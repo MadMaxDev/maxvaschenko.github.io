@@ -57,8 +57,13 @@
     }
 
     .slider-rounds {
+        position: absolute;
         padding-top: 40px;
         margin-left: 44%;
+    }
+
+    .slider-inner-round-1 {
+        display: none;
     }
 
     /*ABOUT OUR COMPANY*/
@@ -74,6 +79,10 @@
         visibility: visible;
     }
 
+    address {
+        height: 345px;
+    }
+
     .container_address {
         display: flex;
         justify-content: space-between;
@@ -86,14 +95,17 @@
 
     .address-item-img {
         margin-right: -3px;
+        padding-right: 26px;
     }
 
     .address-item-img-second {
         margin-right: -3px;
+        padding-right: 26px;
     }
 
     .address-item-img-third {
         margin-right: -3px;
+        padding-right: 26px;
     }
 
     .about-company p {
@@ -134,6 +146,10 @@
         justify-content: center;
         margin-left: 10%;
         margin-top: 25px;
+    }
+
+    .slider-inner-round-black {
+        display: none;
     }
 
     .card-text {

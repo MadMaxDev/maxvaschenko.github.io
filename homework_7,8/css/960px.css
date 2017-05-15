@@ -90,12 +90,26 @@
     }
 
     .slider-rounds {
+        position: relative;
         width: 960px;
         margin: 0 auto;
         display: flex;
         justify-content: flex-end;
         padding-right: 170px;
         padding-top: 90px;
+    }
+
+    .slider-inner-round-1 {
+        display: block;
+        position: absolute;
+        padding-top: 3px;
+        padding-bottom: 2px;
+        padding-right: 3px;
+    }
+
+    .slider-inner-round-1 img {
+        height: 12px;
+
     }
 
     /*ABOUT COMPANY*/
@@ -192,11 +206,20 @@
     }
 
     .slider_rounds-768 {
+        position: relative;
         display: flex;
         justify-content: center;
         width: 430px;
         margin-top: 25px;
         margin-left: 45px;
+    }
+
+    .slider-inner-round-black {
+        position: absolute;
+        margin-right: 10px;
+        padding-left: 21px;
+        padding-top: 3px;
+        border-radius: 5px;
     }
 
     .card-text {
