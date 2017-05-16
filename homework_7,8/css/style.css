@@ -184,12 +184,13 @@ address {
 }
 
 .read-more {
+    margin-top: 25px;
     text-align: right;
     margin-left: 20px;
 }
 
 .read-more a {
-    font: 24px 'gothicregular';
+    font: 18px 'gothicregular';
     color: white;
     text-decoration: none;
 }
@@ -251,7 +252,7 @@ article {
     width: 80%;
     font: 16px 'Open Sans Light';
     color: #454545;
-    text-shadow: 1px 0 1px #c3c3c3;
+    text-shadow: -1px 0 3px #d8d8d8;
 }
 
 .longer-card-text {
@@ -324,7 +325,7 @@ article {
 
 .update-header {
     font: 900 16px 'Open Sans';
-    text-shadow: 1px 0 1px #c3c3c3;
+    text-shadow: -1px 0 3px #d8d8d8;
 }
 
 .posted-by {
