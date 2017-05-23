@@ -35,7 +35,7 @@ header {
 .header-txt {
     font: 300 48px 'gothicregular';
     color: #ffffff;
-    text-shadow: 0 2px 2px #a7959c;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
     margin-left: 25%;
 
 }
@@ -88,13 +88,13 @@ header {
 .slider_text_top {
     font: 300 36px 'gothicregular';
     color: #ffffff;
-    text-shadow: 0 2px 2px #625c6b;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
 }
 
 .slider_text_bottom {
     font: 500 18px 'gothicregular';
     color: #edbfff;
-    text-shadow: 0 2px 2px #625c6b;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
 }
 
 .slider_text_under {
@@ -159,13 +159,13 @@ address {
 .about-company-header {
     font: 24px 'gothicregular';
     color: #ffffff;
-    text-shadow: 1px 1px 1px #14191c;
+    text-shadow: 1px 1px 0px rgba(15, 21, 24, 1);
 }
 
 .about-company p {
     font: 16px 'Open Sans Light';
     color: white;
-    text-shadow: 1px 1px 1px #14191c;
+    text-shadow: 1px 1px 0px rgba(15, 21, 24, 1);
     width: 88%;
 }
 
@@ -193,6 +193,7 @@ address {
     font: 18px 'gothicregular';
     color: white;
     text-decoration: none;
+    text-shadow: 1px 1px 0px rgba(15, 21, 24, 1);
 }
 
 .last {
@@ -285,7 +286,7 @@ article {
 .recent p {
     font: 30px 'gothicregular';
     color: #454545;
-    text-shadow: 1px 0 1px #c3c3c3;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 1);
 }
 
 .round_icon1 {
@@ -325,12 +326,12 @@ article {
 
 .update-header {
     font: 900 16px 'Open Sans';
-    text-shadow: -1px 0 3px #d8d8d8;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 1);
 }
 
 .posted-by {
     font: 16px 'Open Sans Light';
-    text-shadow: 1px 0 1px #c3c3c3;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 1);
 }
 
 .more-post {
@@ -407,13 +408,13 @@ footer {
 .designed {
     font: 12px 'Open Sans Light';
     color: white;
-    text-shadow: 0 2px 2px #625c6b;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
 }
 
 .pingbull {
     font: 700 13px 'MyriadPro';
     color: white;
-    text-shadow: 0 2px 2px #625c6b;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
 }
 
 .authors {
