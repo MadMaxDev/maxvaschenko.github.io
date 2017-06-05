@@ -1,17 +1,26 @@
-/**
- * Created by User on 28.05.2017.
- */
-function nameAdding() {
-    var arr = newArray();
+var arr = [];
 
-    if (arr.length < 6) {
-        arr.push(prompt('Введите имя', name));
-    }
+for (var i = 0; i < 5; i++) {
+
+    arr.push(prompt("Введите имя"));
+
 }
 
-// for (i=0, i<arr.length; i++ ) {
-//     prompt('Введите имя', name);
-//     arr.push (name);
-// }
+userName = prompt("Введите имя пользаователя");
+
+if (userName == arr[0]) {
+    alert(userName + ", вы успешно вошли");
+} else if (userName == arr[1]) {
+    alert(userName + ", вы успешно вошли");
+} else if (userName == arr[2]) {
+    alert(userName + ", вы успешно вошли");
+} else if (userName == arr[3]) {
+    alert(userName + ", вы успешно вошли");
+} else if (userName == arr[4]) {
+    alert(userName + ", вы успешно вошли");
+} else {
+    alert("Ошибка!")
 }
 
+console.log(arr);
+console.log(userName);
