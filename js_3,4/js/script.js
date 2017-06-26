@@ -9,14 +9,16 @@ document.body.appendChild(testContainer);
 var testName = document.createElement('span');
 testName.className = "test_name";
 testName.innerHTML = 'Тест по программированию';
+testName.style.marginLeft = "200px";
 testContainer.appendChild(testName);
 
 var questions = document.createElement('ul');
 questions.style.listStyle = "none";
 questions.style.paddingLeft = 0;
+questions.style.marginTop = "50px";
 for (var i = 0; i < 3; i++) {
     var questionsItems = document.createElement("li");
-    questionsItems.innerHTML = (i + 1) + ". Вариант ответа №" + (i + 1);
+    questionsItems.innerHTML = (i + 1) + ". Вопрос №" + (i + 1);
     questions.appendChild(questionsItems);
     for (var j = 0; j < 3; j++) {
         var answers = document.createElement('ul');
@@ -32,6 +34,12 @@ for (var i = 0; i < 3; i++) {
     }
 }
 testContainer.appendChild(questions);
+
+var answersChekout = document.createElement('button');
+answersChekout.innerHTML = "Проверить мои результаты";
+answersChekout.style.marginLeft = "200px";
+answersChekout.style.marginTop = "50px";
+testContainer.appendChild(answersChekout);
 
 
 console.log(document);
