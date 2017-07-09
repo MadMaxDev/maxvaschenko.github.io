@@ -1,46 +1,55 @@
-var a = 0;
-var b = 0;
-var c = 0;
-var d = 0;
+/**
+ * Created by User on 09.07.2017.
+ */
+var time = 0;
+var running = 0;
+var msec = 0, mins = 0, secs = 0, hours = 0;
 
-var stopWatch = document.getElementById("stopWatch");
-stopWatch.setAttribute('value', '00:00:00:00');
-var startButton = document.getElementById("startButton");
-
-
-function clearTimer() {
-    clearInterval(startTimeInterval);
-    if (a.toString().length == 1) a = '0' + a;
-    if (b.toString().length == 1) b = '0' + b;
-    if (c.toString().length == 1) c = '0' + c;
-    if (d.toString().length == 1) d = '0' + d;
-    stopWatch.setAttribute('value', d + ':' + c + ':' + b + ':' + a);
-};
-
-function start_time() {
-
-    var this_date = new Date();
+var startButton = document.getElementById('startPause');
+startButton.addEventListener("click", startPause);
+var resetButton = document.getElementById('reset');
+resetButton.addEventListener("click", reset);
 
 
-    startTimeInterval = setInterval(function () {
-
-        var new_date = new Date() - this_date;
-        var msec = Math.abs(Math.floor(new_date) % 1000); //msek
-        var sec = Math.abs(Math.floor(new_date / 1000) % 60); //sek
-        var min = Math.abs(Math.floor(new_date / 1000 / 60) % 60); //min
-        var hours = Math.abs(Math.floor(new_date / 1000 / 60 / 60) % 24); //hours
-
-        if (sec.toString().length == 1) sec = '0' + sec;
-        if (min.toString().length == 1) min = '0' + min;
-        if (hours.toString().length == 1) hours = '0' + hours;
-
-        stopWatch.setAttribute('value', hours + ':' + min + ':' + sec + ':' + msec);
-
-    }, 10);
+function startPause() {
+    if (running == 0) {
+        running = 1;
+        increment();
+        document.getElementById("start").innerHTML = "Pause";
+        document.getElementById("startPause").style.backgroundColor = "red";
+        document.getElementById("startPause").style.borderColor = "red";
+    }
+    else {
+        running = 0;
+        document.getElementById("start").innerHTML = "Resume";
+        document.getElementById("startPause").style.backgroundColor = "green";
+        document.getElementById("startPause").style.borderColor = "green";
+    }
 }
-
-function stopTime() {
-    clearInterval(startTimeInterval);
+function reset() {
+    running = 0;
+    time = 0;
+    document.getElementById("start").innerHTML = "Start";
+    document.getElementById("output").innerHTML = "0:00:00:00";
+    document.getElementById("startPause").style.backgroundColor = "green";
+    document.getElementById("startPause").style.borderColor = "green";
 }
-
-
+function increment() {
+    if (running == 1) {
+        setTimeout(function () {
+            time++;
+            msec = time % 10;
+            secs = Math.floor(time / 10 % 60);
+            mins = Math.floor(time / 10 / 60);
+            hours = Math.floor(time / 10 / 60 / 60);
+            if (mins < 10) {
+                mins = "0" + mins;
+            }
+            if (secs < 10) {
+                secs = "0" + secs;
+            }
+            document.getElementById("output").innerHTML = hours + ":" + mins + ":" + secs + ":" + msec + "0";
+            increment();
+        }, 100);
+    }
+}
