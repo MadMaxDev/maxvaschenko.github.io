@@ -26,14 +26,6 @@ function startPause() {
         document.getElementById("startPause").style.borderColor = "green";
     }
 }
-function reset() {
-    running = 0;
-    time = 0;
-    document.getElementById("start").innerHTML = "Start";
-    document.getElementById("output").innerHTML = "0:00:00:00";
-    document.getElementById("startPause").style.backgroundColor = "green";
-    document.getElementById("startPause").style.borderColor = "green";
-}
 function increment() {
     if (running == 1) {
         setTimeout(function () {
@@ -52,4 +44,13 @@ function increment() {
             increment();
         }, 100);
     }
+}
+function reset() {
+    running = 0;
+    time = -1;
+    document.getElementById("start").innerHTML = "Start";
+    document.getElementById("output").innerHTML = "0:00:00:00";
+    document.getElementById("startPause").style.backgroundColor = "green";
+    document.getElementById("startPause").style.borderColor = "green";
+    return time;
 }
