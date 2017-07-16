@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS 9,10</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.selectric/1.11.1/selectric.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="slider single-item">
+    <div><img src="img/1.jpg" alt=""></div>
+    <div><img src="img/2.jpg" alt=""></div>
+    <div><img src="img/3.jpg" alt=""></div>
+    <div><img src="img/4.jpg" alt=""></div>
+</div>
+<div class="container_buttons">
+    <button id="next">NEXT</button>
+    <button id="prev">PREV</button>
+</div>
+
+<div class="towns">
+    <select>
+        <option>Киев</option>
+        <option>Львов</option>
+        <option>Одесса</option>
+        <option>Харьков</option>
+        <option>Черкассы</option>
+    </select>
+</div>
+<div class="checkboxes_js">
+    <ul>
+        <li><label class="nonCss"><input type="checkbox">jQuery1</label></li>
+        <li><label class="nonCss"><input type="checkbox">jQuery2</label></li>
+        <li><label class="nonCss" id="selected"><input type="checkbox">jQuery3</label></li>
+    </ul>
+</div>
+
+<div class="checkbox">
+    <ul>
+        <li>
+            <input type="checkbox" id="checkbox_1">
+            <label for="checkbox_1">CSS1</label>
+        </li>
+        <li>
+            <input type="checkbox" id="checkbox_2">
+            <label for="checkbox_2">CSS2</label>
+        </li>
+        <li>
+            <input type="checkbox" id="checkbox_3">
+            <label for="checkbox_3">CSS3</label>
+        </li>
+    </ul>
+</div>
+
+<div class="extractingMenu">
+    <ul class="menu_main">
+        <li>Nav 1</li>
+        <li>Nav 2</li>
+        <li id=>Nav 3
+            <ul class="submenu_1">
+                <li>Nav 3.1</li>
+                <li>Nav 3.2</li>
+                <li>Nav 3.3
+                    <ul class="submenu_2">
+                        <li>Nav 3.3.1</li>
+                        <li>Nav 3.3.2</li>
+                        <li>Nav 3.3.3
+                            <ul class="submenu_3">
+                                <li>Nav.3.3.3.1</li>
+                                <li>Nav.3.3.3.2</li>
+                                <li>Nav.3.3.3.3</li>
+                                <li>Nav.3.3.3.4</li>
+                                <li>Nav.3.3.3.5</li>
+                            </ul>
+                        </li>
+                        <li>Nav 3.3.4</li>
+                        <li>Nav 3.3.5</li>
+                    </ul>
+                </li>
+                <li>Nav 3.4</li>
+                <li>Nav 3.5</li>
+            </ul>
+        </li>
+        <li>Nav 4</li>
+        <li>Nav 5</li>
+    </ul>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.selectric/1.11.1/jquery.selectric.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
