@@ -159,3 +159,48 @@ input[type="checkbox"] {
     width: 100px;
 
 }
+
+/*CSS Dropmenu*/
+
+.top-menu {
+    background-color: #ff6464;
+    margin-top: 50px;
+    margin-bottom: 300px;
+    padding-left: 100px;
+}
+
+.top-menu li {
+    list-style: none; /*Убираем маркер*/
+    display: inline-block; /*Выстраиваем пункты в ряд*/
+    position: relative;
+    height: 60px;
+}
+
+.top-menu li:hover {
+    background: #974242; /*Цвет фона при наведение на пункт*/
+}
+
+.top-menu li a {
+    color: #222; /*Цвет шрифта в пункте*/
+    padding: 0 7px; /*Отступы для пункта*/
+    text-decoration: none; /*Убираем подчеркивание*/
+    display: block;
+    line-height: 60px;
+}
+
+.top-menu li ul {
+    display: none; /*Прячем выпадающее меню*/
+    position: absolute;
+    padding-left: 0;
+    width: 77px; /*Ширина выпадающего меню*/
+    /*padding-top:5px;!*Отступ сверху у выпадающего меню*!*/
+    margin-top: 1px;
+}
+
+.top-menu li:hover ul {
+    background: #974242;
+    display: block; /*Показываем выпадающее меню при наведение*/
+    left: 0px;
+}
+
+
