@@ -120,32 +120,35 @@ input[type="checkbox"] {
 
 .menu_main {
     display: flex;
+    height: 60px;
+    background-color: #ff6464;
+    padding-left: 100px;
 }
 
-/*input[type="checkbox"] + label {*/
-/*font: 18px bold;*/
-/*color: #444;*/
-/*cursor: pointer;*/
-/*}*/
+.menu_main li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
-/*input[type="checkbox"] + label::before {*/
-/*content: "";*/
-/*display: inline-block;*/
-/*height: 18px;*/
-/*width: 18px;*/
-/*margin: 0 5px 0 0;*/
-/*background-image: url(../img/sprite.png);*/
-/*background-repeat: no-repeat;*/
-/*}*/
-/*input[type="checkbox"] + label::before {*/
-/*background-position: 0 -40px;*/
-/*}*/
-/*input[type="checkbox"]:checked + label::before {*/
-/*background-position: 0px -60px;*/
-/*}*/
-/*input[type="checkbox"]:disabled + label::before {*/
-/*background-position: 0-80px;*/
-/*}*/
-/*input[type="checkbox"]:checked:disabled + label::before {*/
-/*background-position: 0-0px;*/
-/*}*/
+.menu_main li a {
+    line-height: 60px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu_main li a:hover {
+    color: white;
+}
+
+.submenu_2 {
+    display: none;
+}
+
+.submenu_3 {
+    display: none;
+}
+
+.active {
+    display: flex;
+    flex-direction: column;
+}
