@@ -42,3 +42,12 @@
     cursor: pointer;
     background-color: grey;
 }
+
+.profile_container {
+    margin: 0 auto;
+    padding-top: 200px;
+    width: 600px;
+}
+body {
+    background-color: #ededed;
+}
