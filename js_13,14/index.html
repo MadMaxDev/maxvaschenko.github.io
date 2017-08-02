@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS 13,14</title>
+    </head>
+<style>
+    ul {
+        list-style: none;
+    }
+    .answers-checkbox-container {
+        display: flex;
+    }
+
+</style>
+<body>
+<script id="testPage" type="text/x-handlebars-template">
+        <h1>{{testName}}</h1>
+        <div class="test_container">
+                <ul>
+                    {{#each questions}}
+                    <li>{{title}}
+                            <ul>
+                                {{#each answers}}
+                                <div class="answers-checkbox-container">
+                                    <input type="checkbox"><li>{{this}}</li>
+                                </div>
+                                {{/each}}
+                            </ul>
+                    </li>
+                    {{/each}}
+                </ul>
+        </div>
+</script>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.js"></script>
+<script src="js/script.js"></script>
+</html>
