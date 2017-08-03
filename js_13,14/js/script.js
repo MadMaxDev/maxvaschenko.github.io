@@ -1,7 +1,12 @@
+"use strict";
+
 var source   = $('#testPage').html();
+
 var template = Handlebars.compile(source);
 
-var data = {
+var data = JSON.parse(localStorage.getItem("testDataKey"));
+
+var dataSource = {
     testName: 'Тест по математике',
     questions: [
         {
@@ -24,3 +29,10 @@ var data = {
 
 var html = template(data);
 $(document.body).append(html);
+
+
+var testData = JSON.stringify(dataSource);
+localStorage.setItem("testDataKey", testData);
+
+
+
