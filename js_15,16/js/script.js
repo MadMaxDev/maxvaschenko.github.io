@@ -1,27 +1,28 @@
 function newRender(){
     'use strict';
-    debugger;
     var container = document.getElementById('root'),
         source = document.getElementById('article').textContent,
         compiled = _.template(source),
         apiUrl =
             'https://pixabay.com/api/?key=6176850-04154e69eb28ef97e770c0325&q=cars+girls&per_page=9';
 
-    var promise = fetch(apiUrl).then(function(response) {
-        if (response.ok) {
-            return response.json();
-        }
-        throw new Error ('ERROR while fetching!');
-    }).then(function(data) {
-        var articles = _.map(data.articles, function(item){
+    var promise = fetch(apiUrl)
+        .then(function(response) {
+            if (response.ok) {
+                return response.json();
+            }
+            throw new Error ('ERROR while fetching!');
+        }).then(function(data) {
+        var articles = _.map(data.hits, function(item){
             return {
-                title: item.id,
+                user: item.user,
                 img: item.previewURL,
                 onPage:item.pageURL
             };
         });
+        console.log('data', data);
+        console.log('articles', articles);
 
-        console.log(articles);
 
         render(compiled, articles,container);
     }).catch(function(error) {
@@ -29,7 +30,7 @@ function newRender(){
     });
 
     function render(template, data, parent){
-        var htmlString ="";
+        var htmlString ='';
         _.forEach(data, function(item){
             htmlString+=template(item);
         });
