@@ -1,3 +1,10 @@
+.searchBlock {
+    width: 200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+
 .article {
     display: flex;
     flex-direction: column;
@@ -5,9 +12,15 @@
 }
 
 #root {
-    margin: 150px auto;
+    margin: 80px auto;
     width: 600px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+#btn {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
