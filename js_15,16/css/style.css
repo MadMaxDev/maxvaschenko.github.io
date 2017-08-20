@@ -1,0 +1,13 @@
+.article {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+#root {
+    margin: 150px auto;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

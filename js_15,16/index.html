@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>JS_15,16</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="page">
 
-<div id="root">
-    <div id="article">
-        <span><%-title%></span>
-        <img src="" alt="">
-        <a href="<%=onPage%>">На странице</a>
-    </div>
-</div>
+<div id="root"></div>
+
+<script type="tpl/lodash" id="article">
+    <article class="article">
+      <span><%- user %></span>
+      <img src="<%- img %>" alt="" />
+      <a href="<%- onPage %>" target="_blank">On page-></a>
+    </article>
+  </script>
 
 <script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js"></script>
 <script src="js/script.js"></script>

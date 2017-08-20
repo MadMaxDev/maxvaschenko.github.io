@@ -22,9 +22,9 @@ function newRender(){
         });
         console.log('data', data);
         console.log('articles', articles);
+        console.log ('render', render);
 
-
-        render(compiled, articles,container);
+        render(compiled, articles, container);
     }).catch(function(error) {
         console.log (error);
     });
@@ -35,6 +35,7 @@ function newRender(){
             htmlString+=template(item);
         });
         parent.innerHTML+=htmlString;
+        console.log('htmlString', htmlString);
     }
 
 };
