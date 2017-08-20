@@ -7,8 +7,13 @@ var context = {
     lastName: 'Vashchenko',
     avatarUrl: 'img/photo.jpg',
     profession: 'IT Sales Manager',
+    reasons: [
+        "it's interesting for me",
+        "I think it's perspective profession",
+        "good salary"
+    ],
     phoneNumber: '0638614257',
-    fbUrl: 'https://www.facebook.com/',
+    fbUrl: 'https://www.facebook.com/profile.php?id=100006076749205',
     feedback: 'Feedback after course'
 };
 

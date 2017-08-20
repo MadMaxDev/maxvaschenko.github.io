@@ -15,6 +15,8 @@ $('.nonCss').on('click', function () {
         $(this).addClass('active');
     } else {
         $(this).removeClass('active');
+
+
     }
 });
 

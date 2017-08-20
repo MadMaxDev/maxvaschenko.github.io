@@ -13,6 +13,11 @@
         <img src="{{{avatarUrl}}}" alt="">
         <p class="profession">{{profession}}</p>
         <h2>Reason's why I learn Frontend:</h2>
+        {{#each reasons}}
+        <ul>
+            <li>{{this}}</li>
+        </ul>
+        {{/each}}
         <h2>My contact number:</h2>
         <p>{{phoneNumber}}</p>
         <h2>My Facebook Profile:</h2>
