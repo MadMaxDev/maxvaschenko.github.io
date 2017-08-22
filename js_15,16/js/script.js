@@ -8,6 +8,7 @@ function newRender(){
             compiled = _.template(source),
             apiUrl =
                 'https://pixabay.com/api/?key=6176850-04154e69eb28ef97e770c0325&q='+searchQuery+'&per_page=9';
+        var articles = [];
 
         var promise = fetch(apiUrl)
             .then(function(response) {
@@ -16,7 +17,7 @@ function newRender(){
                 }
                 throw new Error ('ERROR while fetching!');
             }).then(function(data) {
-            var articles = _.map(data.hits, function(item){
+            articles = _.map(data.hits, function(item){
                 return {
                     user: item.user,
                     img: item.previewURL,
@@ -43,9 +44,15 @@ function newRender(){
     }
     var searchBtn = document.getElementById("btn");
     searchBtn.addEventListener("click", function () {
-        search()
+        search();
     });
-
+    var enterSearch = document.getElementById("searchInput");
+    enterSearch.addEventListener('keydown', function(e) {
+        if (e.keyCode === 13) {
+            search();
+            event.preventDefault();
+        }
+    });
 };
 newRender();
 
