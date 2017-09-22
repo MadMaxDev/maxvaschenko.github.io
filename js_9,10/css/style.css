@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.slider {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #e1e1e1;
+    border: 3px solid orange;
+}
+
+.slider img {
+    margin: 10px auto;
+}
+
+.container_buttons {
+    margin: 20px auto;
+    width: 105px;
+}
+
+.checkboxes_js ul li {
+    list-style: none;
+}
+
+.checkboxes_js ul {
+    padding-left: 0;
+}
+
+.towns {
+    width: 300px;
+    margin: 30px auto;
+}
+
+/*jQuery*/
+
+.checkboxes_js {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.nonCss {
+    padding-left: 20px;
+    background: url(../img/sprite.png) no-repeat 0 0;
+}
+
+.active {
+    background-position: 0 -40px;
+}
+
+label input {
+    display: none;
+}
+
+#selected {
+    background-position: 0 -140px;
+}
+
+/*CSS*/
+
+.checkbox {
+    width: 300px;
+    margin: 20px auto;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.checkbox label {
+    position: relative;
+    display: inline-block;
+    padding-left: 22px;
+}
+
+.checkbox label::before,
+.checkbox label::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+}
+
+.checkbox label::before {
+    height: 16px;
+    width: 16px;
+
+    border: 1px solid;
+    top: 3px;
+    left: 0;
+}
+
+.checkbox label::after {
+    height: 6px;
+    width: 9px;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+
+    transform: rotate(-45deg);
+    left: 4px;
+    top: 7px;
+}
+
+.checkbox input[type="checkbox"] + label::after {
+    content: none;
+}
+
+.checkbox input[type="checkbox"]:checked + label::after {
+    content: "";
+}
+
+.checkbox input[type="checkbox"]:focus + label::a {
+    outline: rgb(59, 153, 252) auto 5px;
+}
+
+/*MENU*/
+
+.menu_main {
+    display: flex;
+    height: 60px;
+    background-color: #ff6464;
+    padding-left: 100px;
+}
+
+.menu_main li {
+    width: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.menu_main li a {
+    line-height: 60px;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.menu_main li a:hover {
+    color: white;
+}
+
+.submenu_2 {
+    display: none;
+    width: 100px;
+    margin-left: -20px;
+    background-color: #a72222;
+}
+
+.submenu_3 {
+    display: none;
+}
+
+.activeMenu {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+
+}
+
+/*CSS Dropmenu*/
+
+.top-menu {
+    background-color: #ff6464;
+    margin-top: 50px;
+    margin-bottom: 300px;
+    padding-left: 100px;
+}
+
+.top-menu li {
+    list-style: none; /*Убираем маркер*/
+    display: inline-block; /*Выстраиваем пункты в ряд*/
+    position: relative;
+    height: 60px;
+}
+
+.top-menu li:hover {
+    background: #974242; /*Цвет фона при наведение на пункт*/
+}
+
+.top-menu li a {
+    color: #222; /*Цвет шрифта в пункте*/
+    padding: 0 7px; /*Отступы для пункта*/
+    text-decoration: none; /*Убираем подчеркивание*/
+    display: block;
+    line-height: 60px;
+}
+
+.top-menu li ul {
+    display: none; /*Прячем выпадающее меню*/
+    position: absolute;
+    padding-left: 0;
+    width: 77px; /*Ширина выпадающего меню*/
+    /*padding-top:5px;!*Отступ сверху у выпадающего меню*!*/
+    margin-top: 1px;
+}
+
+.top-menu li:hover ul {
+    background: #974242;
+    display: block; /*Показываем выпадающее меню при наведение*/
+    left: 0px;
+}
+
+
