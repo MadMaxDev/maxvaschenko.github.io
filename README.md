@@ -1,1 +1,1 @@
-# goit-js-course repository
+# My yraining Project
