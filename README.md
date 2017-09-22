@@ -1,1 +1,1 @@
-# My yraining Project
+# My training Project
