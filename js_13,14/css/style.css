@@ -1,0 +1,18 @@
+.testName {
+   margin-left: 30px;
+}
+
+ul {
+    list-style: none;
+}
+.answers-checkbox-container {
+    display: flex;
+}
+#btn {
+    margin-left: 30px;
+}
+
+#testResult1, #testResult2 {
+    display: none;
+}
+a
