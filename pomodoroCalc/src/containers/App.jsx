@@ -12,19 +12,12 @@ class App extends Component {
     super(props);
     this.state = {
       timerStarted: false,
+      restTimerStarted: false,
       seconds: 0,
       targetMin: 5,
       targetMinFroze: 0,
       restMin: 5
     };
-    this.handleTargetPlusClick = this.handleTargetPlusClick.bind(this);
-    this.handleTargetMinusClick = this.handleTargetMinusClick.bind(this);
-    this.handleRestPlusClick = this.handleRestPlusClick.bind(this);
-    this.handleRestMinusClick = this.handleRestMinusClick.bind(this);
-    this.timerHandler = this.timerHandler.bind(this);
-    this.timerOn = this.timerOn.bind(this);
-    this.timerOff = this.timerOff.bind(this);
-
   }
 
   handleTargetPlusClick(e) {
@@ -53,7 +46,6 @@ class App extends Component {
   timerOn() {
     this.setState({timerStarted: !this.state.timerStarted});
     this.setState({targetMinFroze: this.state.targetMin});
-    // this.setState({targetMin: this.state.targetMin - 1});
     this.stopTimer = setInterval(() =>
     {this.setState(
       {seconds: (this.state.seconds === 0) ? (this.state.targetMin===0 ? 0 : 59): this.state.seconds - 1,
@@ -68,32 +60,41 @@ class App extends Component {
   }
 
   timerHandler(e) {
-    {this.state.timerStarted ? this.timerOff() : this.timerOn()}
+    {this.state.timerStarted ? ::this.timerOff() : ::this.timerOn()}
   }
 
 
   render() {
+    if (this.state.targetMin === 0 && this.state.seconds === 0 && this.state.timerStarted === true) {confirm('Время' +
+      ' вышло. Хотите' +
+      ' отдохнуть?') ? this.setState({targetMin: this.state.restMin, restTimerStarted: true, timerStarted: false}) : ::this.timerOff()}
+    if(this.state.targetMin === 0 && this.state.seconds === 0 && this.state.restTimerStarted === true) {alert('Время' +
+      ' отдыха окончено, запустите новый отрезок!'); this.setState({restTimerStarted: false}); clearInterval(this.stopTimer)}
     return (
       <__StyledElem__>
         <div className="container-timer">
           <div className="chooseWrap">
             <div className="restInterval">
               <p>Rest</p>
-              <__Button__ buttonName="+" clickEvent = {this.handleRestPlusClick}></__Button__>
+              <__Button__ buttonName="+" clickEvent = {::this.handleRestPlusClick} className={'btn' +
+              ' btn-outline-success'}></__Button__>
               {this.state.restMin}
-              <__Button__ buttonName="-" clickEvent = {this.handleRestMinusClick}></__Button__>
+              <__Button__ buttonName="-" clickEvent = {::this.handleRestMinusClick} className={'btn btn-outline-danger'}></__Button__>
             </div>
             <div className="targetMin">
               <p>Target</p>
-              <__Button__ buttonName="+" clickEvent = {this.handleTargetPlusClick} buttonEnable={this.state.timerStarted}></__Button__>
+              <__Button__ buttonName="+" clickEvent = {::this.handleTargetPlusClick} buttonEnable={this.state.timerStarted} className={'btn' +
+                ' btn-outline-success'}></__Button__>
               {this.state.timerStarted ? this.state.targetMinFroze : this.state.targetMin}
-              <__Button__ buttonName="-" clickEvent = {this.handleTargetMinusClick} buttonEnable={this.state.timerStarted}></__Button__>
+              <__Button__ buttonName="-" clickEvent = {::this.handleTargetMinusClick} buttonEnable={this.state.timerStarted} className={'btn btn-outline-danger'}></__Button__>
             </div>
           </div>
-          <div className="timerLog" onClick={this.timerHandler}>
+          <div className="containerTimerLog">
+            <div className="timerLog" onClick={::this.timerHandler}>
             <span>
               {this.state.targetMin}:{this.state.seconds < 10 ? '0'+this.state.seconds : this.state.seconds}
             </span>
+            </div>
           </div>
         </div>
       </__StyledElem__>
