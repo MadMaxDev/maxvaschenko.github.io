@@ -1,47 +1,64 @@
 import React from 'react';
-import {connect} from 'react-redux';
 
-import Counter from '@/components/Counter';
-import UsersContainer from '@/containers/UsersContainer';
+
+
+// class Workers extends React.Component {
+//   constructor() {
+//     super();
+//   }
+//
+//   render() {
+//     return <tr>
+//              <td>{this.props.family}</td><td>{this.props.age}</td><td><p onClick={this.props.linkAction.bind(null, this.props.index)}>Alert</p></td>
+//            </tr>
+//   }
+// }
+
+
+const Workers = (props) => {
+  return <tr>
+      <td>{this.props.family}</td><td>{this.props.age}</td><td><p onClick={::this.props.linkAction(null, this.props.family)}>Alert</p></td>
+    </tr>
+};
+
 
 class App extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      users: [
+        {surname: 'Иванов', age: 13},
+        {surname: 'Петров', age: 14},
+        {surname: 'Сидоров', age: 16},
+      ]
+    };
+  }
+
+  showMessage(index) {
+    this.state.users.splice(index, 1);
+    this.setState({users: this.state.users});
+  }
+
   render() {
-    return (
-      <div className="container">
-        <Counter
-          value={this.props.counterValue}
-          onAdd={this.props.onAdd}
-          onSub={this.props.onSub}
-        />
-        <UsersContainer/>
-      </div>
-    );
+    const WorkersTable = this.state.users.map((item, index) => {
+      console.log(item.surname);
+      return <Workers
+             family = {item.surname}
+             age={item.age}
+             key={index}
+             index={index}
+             linkAction={::this.showMessage}
+             />;
+    });
+    return <table>
+      <tbody>
+      {WorkersTable}
+      </tbody>
+    </table>
+
   }
 }
 
-const mapStateToProps = (state) => ({
-  counterValue: state.counter
-});
 
-const mapDispatchToProps = (dispatch) => ({
-  onAdd() {
-    dispatch({
-      type: 'ADD',
-      payload: 10
-    });
-  },
-  onSub() {
-    dispatch({
-      type: 'SUB',
-      payload: 10
-    });
-  }
-});
+export default App;
 
-export default connect(mapStateToProps, mapDispatchToProps)(App);
-
-// function connect() {
-//   return function {
-//
-//   }
-// }
