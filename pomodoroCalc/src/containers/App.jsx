@@ -77,16 +77,17 @@ class App extends Component {
             <div className="restInterval">
               <p>Rest</p>
               <__Button__ buttonName="+" clickEvent = {::this.handleRestPlusClick} className={'btn' +
-              ' btn-outline-success'}></__Button__>
+              ' btn-outline-success'}/>
               {this.state.restMin}
-              <__Button__ buttonName="-" clickEvent = {::this.handleRestMinusClick} className={'btn btn-outline-danger'}></__Button__>
+              <__Button__ buttonName="-" clickEvent = {::this.handleRestMinusClick} className={'btn' +
+              ' btn-outline-danger'}/>
             </div>
             <div className="targetMin">
               <p>Target</p>
               <__Button__ buttonName="+" clickEvent = {::this.handleTargetPlusClick} buttonEnable={this.state.timerStarted} className={'btn' +
-                ' btn-outline-success'}></__Button__>
+                ' btn-outline-success'}/>
               {this.state.timerStarted ? this.state.targetMinFroze : this.state.targetMin}
-              <__Button__ buttonName="-" clickEvent = {::this.handleTargetMinusClick} buttonEnable={this.state.timerStarted} className={'btn btn-outline-danger'}></__Button__>
+              <__Button__ buttonName="-" clickEvent = {::this.handleTargetMinusClick} buttonEnable={this.state.timerStarted} className={'btn btn-outline-danger'}/>
             </div>
           </div>
           <div className="containerTimerLog">
