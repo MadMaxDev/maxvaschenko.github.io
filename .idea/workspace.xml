@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list id="3110acfd-1940-4bf0-9029-0c297f8bc3bc" name="Revert &quot;добавил поиск при нажатии на input&quot; This reverts commit fa3bb60" comment="Revert &quot;добавил поиск при нажатии на input&quot;&#10;&#10;This reverts commit fa3bb60" />
+    <list default="true" id="4f5990f8-d0e1-4613-ab0c-5c0d4fdc0044" name="Default" comment="верстка">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLinters/jslint.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/css/styles.min.css" afterPath="$PROJECT_DIR$/css/styles.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/fonts/poppins-semibold-webfont.woff" afterPath="$PROJECT_DIR$/fonts/poppins-semibold-webfont.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/fonts/poppins-semibold-webfont.woff2" afterPath="$PROJECT_DIR$/fonts/poppins-semibold-webfont.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/features.png" afterPath="$PROJECT_DIR$/img/features.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/logo.png" afterPath="$PROJECT_DIR$/img/logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/main-sprite.png" afterPath="$PROJECT_DIR$/img/main-sprite.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/main.png" afterPath="$PROJECT_DIR$/img/main.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/partner1.png" afterPath="$PROJECT_DIR$/img/partner1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/partner2.png" afterPath="$PROJECT_DIR$/img/partner2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/partner3.png" afterPath="$PROJECT_DIR$/img/partner3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/partner4.png" afterPath="$PROJECT_DIR$/img/partner4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/partner5.png" afterPath="$PROJECT_DIR$/img/partner5.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/partner6.png" afterPath="$PROJECT_DIR$/img/partner6.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/product1.png" afterPath="$PROJECT_DIR$/img/product1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/product2.png" afterPath="$PROJECT_DIR$/img/product2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/product3.png" afterPath="$PROJECT_DIR$/img/product3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/quotes.png" afterPath="$PROJECT_DIR$/img/quotes.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/round.png" afterPath="$PROJECT_DIR$/img/round.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/send-menu-background.jpg" afterPath="$PROJECT_DIR$/img/send-menu-background.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/social-and-submit-sprite.png" afterPath="$PROJECT_DIR$/img/social-and-submit-sprite.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/stars-voted.png" afterPath="$PROJECT_DIR$/img/stars-voted.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/stars.png" afterPath="$PROJECT_DIR$/img/stars.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/upper-section-man.jpg" afterPath="$PROJECT_DIR$/img/upper-section-man.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/vrbox1.jpg" afterPath="$PROJECT_DIR$/img/vrbox1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/vrbox2.jpg" afterPath="$PROJECT_DIR$/img/vrbox2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="maxvaschenko.github.io" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>es</find>
+      <find>l</find>
+    </findStrings>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="SHOW_REMOTE_BRANCHES" value="true" />
+    <option name="ONTO" value="refs/heads/trainingProject" />
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="trainingProject" />
+      </map>
+    </option>
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test/1/index.html" />
+        <option value="$PROJECT_DIR$/test/1/js/script.js" />
+        <option value="$PROJECT_DIR$/pomodoroCalc/src/store/actions/userActions.js" />
+        <option value="$PROJECT_DIR$/pomodoroCalc/src/store/reducers/index.js" />
+        <option value="$PROJECT_DIR$/pomodoroCalc/src/store/index.js" />
+        <option value="$PROJECT_DIR$/pomodoroCalc/src/index.jsx" />
+        <option value="$PROJECT_DIR$/pomodoroCalc/src/components/button/styled.js" />
+        <option value="$PROJECT_DIR$/pomodoroCalc/webpack.config.js" />
+        <option value="$PROJECT_DIR$/pomodoroCalc/.babelrc" />
+        <option value="$PROJECT_DIR$/training/webpack.config.js" />
+        <option value="$PROJECT_DIR$/pomodoroCalc/package.json" />
+        <option value="$PROJECT_DIR$/pomodoroCalc/src/components/button/index.js" />
+        <option value="$PROJECT_DIR$/pomodoroCalc/src/index.html" />
+        <option value="$PROJECT_DIR$/pomodoroCalc/src/containers/styled.js" />
+        <option value="$PROJECT_DIR$/training/src/index.html" />
+        <option value="$PROJECT_DIR$/training/package.json" />
+        <option value="$PROJECT_DIR$/pomodoroCalc/src/containers/App.jsx" />
+        <option value="$PROJECT_DIR$/training/src/store/actions/userActions.js" />
+        <option value="$PROJECT_DIR$/training/src/store/index.js" />
+        <option value="$PROJECT_DIR$/training/src/store/reducers/counterReducer.js" />
+        <option value="$PROJECT_DIR$/training/src/store/reducers/index.js" />
+        <option value="$PROJECT_DIR$/training/src/containers/styled.js" />
+        <option value="$PROJECT_DIR$/training/src/index.jsx" />
+        <option value="$PROJECT_DIR$/training/src/containers/App.jsx" />
+        <option value="$PROJECT_DIR$/gulp-boilerplate/src/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="maxvaschenko.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maxvaschenko.github.io" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="moz&#9;null&#9;null" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gulp-boilerplate" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/pomodoroCalc" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/training/src/img" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="App.jsx" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="index.jsx" working-dir="$PROJECT_DIR$/pomodoroCalc/src">
+      <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
+        <option name="envVars">
+          <list />
+        </option>
+        <option name="extraHosts">
+          <list />
+        </option>
+        <option name="links">
+          <list />
+        </option>
+        <option name="networkDisabled" value="false" />
+        <option name="networkMode" value="bridge" />
+        <option name="portBindings">
+          <list />
+        </option>
+        <option name="publishAllPorts" value="false" />
+        <option name="version" value="1" />
+        <option name="volumeBindings">
+          <list />
+        </option>
+      </EXTENSION>
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" factoryName="npm">
+      <package-json value="$PROJECT_DIR$/pomodoroCalc/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="npm.dev" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.App.jsx" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.App.jsx" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f5990f8-d0e1-4613-ab0c-5c0d4fdc0044" name="Default" comment="" />
+      <created>1504116484012</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1504116484012</updated>
+      <workItem from="1504116485145" duration="199000" />
+      <workItem from="1504711380898" duration="421000" />
+      <workItem from="1505144750107" duration="4000" />
+      <workItem from="1505922011099" duration="20000" />
+      <workItem from="1506069361356" duration="8316000" />
+      <workItem from="1506089232777" duration="2280000" />
+      <workItem from="1506091805067" duration="1566000" />
+      <workItem from="1506093800271" duration="1612000" />
+      <workItem from="1506095462972" duration="4887000" />
+      <workItem from="1506331755616" duration="51627000" />
+      <workItem from="1506962490471" duration="8737000" />
+      <workItem from="1507024312697" duration="43762000" />
+      <workItem from="1507723937647" duration="19095000" />
+      <workItem from="1507895439032" duration="19231000" />
+      <workItem from="1508256963571" duration="3576000" />
+      <workItem from="1508835827122" duration="9027000" />
+      <workItem from="1509125098453" duration="503000" />
+      <workItem from="1509631680218" duration="357000" />
+      <workItem from="1509638745644" duration="4000" />
+      <workItem from="1509648190851" duration="246000" />
+      <workItem from="1509648463744" duration="341000" />
+      <workItem from="1509648827896" duration="245000" />
+      <workItem from="1509649088381" duration="167000" />
+      <workItem from="1509649298195" duration="648000" />
+      <workItem from="1509650248277" duration="92000" />
+      <workItem from="1509964266053" duration="319000" />
+    </task>
+    <task id="LOCAL-00001" summary="очистка master">
+      <created>1506073333693</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1506073333693</updated>
+    </task>
+    <task id="LOCAL-00002" summary="очистка master">
+      <created>1506074173064</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1506074173064</updated>
+    </task>
+    <task id="LOCAL-00003" summary="hello world">
+      <created>1506074937823</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1506074937823</updated>
+    </task>
+    <task id="LOCAL-00004" summary="poomodoro without click">
+      <created>1506100996602</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1506100996602</updated>
+    </task>
+    <task id="LOCAL-00005" summary="poomodoro ckick, without rest">
+      <created>1506365558236</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1506365558236</updated>
+    </task>
+    <task id="LOCAL-00006" summary="poomodoro timer sec + min">
+      <created>1506438775124</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1506438775124</updated>
+    </task>
+    <task id="LOCAL-00007" summary="poomodoro timer + style (with 2 bags)">
+      <created>1506970630291</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1506970630291</updated>
+    </task>
+    <task id="LOCAL-00008" summary="вопрос по передаче данных к родительскому компоненту">
+      <created>1507573666724</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1507573666724</updated>
+    </task>
+    <task id="LOCAL-00009" summary="список с чекбоксами, редактированием и добавлением нового пункта">
+      <created>1507834612497</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1507834612497</updated>
+    </task>
+    <task id="LOCAL-00010" summary="верстка">
+      <created>1509648574530</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1509648574530</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="177282000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1920" height="1057" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13322802" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.50289625" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26713008" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.49815693" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24960506" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33366436" sideWeight="0.49710375" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964718" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="очистка master" />
+    <MESSAGE value="hello world" />
+    <MESSAGE value="poomodoro without click" />
+    <MESSAGE value="poomodoro ckick, without rest" />
+    <MESSAGE value="poomodoro timer sec + min" />
+    <MESSAGE value="poomodoro timer + style (with 2 bags)" />
+    <MESSAGE value="вопрос по передаче данных к родительскому компоненту" />
+    <MESSAGE value="список с чекбоксами, редактированием и добавлением нового пункта" />
+    <MESSAGE value="верстка" />
+    <option name="LAST_COMMIT_MESSAGE" value="верстка" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/training/src/store/actions/userActions.js" />
+    <entry file="file://$PROJECT_DIR$/training/src/store/reducers/filterReducer.js" />
+    <entry file="file://$PROJECT_DIR$/training/src/store/index.js" />
+    <entry file="file://$PROJECT_DIR$/training/.babelrc" />
+    <entry file="file://$PROJECT_DIR$/test/1/index.html" />
+    <entry file="file://$PROJECT_DIR$/test/1/js/script.js" />
+    <entry file="file://$PROJECT_DIR$/test/1/index.html" />
+    <entry file="file://$PROJECT_DIR$/test/1/js/script.js" />
+    <entry file="file://$PROJECT_DIR$/test/1/index.html" />
+    <entry file="file://$PROJECT_DIR$/test/1/js/script.js" />
+    <entry file="file://$PROJECT_DIR$/js_19,20/src/index.html" />
+    <entry file="file://$PROJECT_DIR$/js_19,20/src/js/module1.js" />
+    <entry file="file://$PROJECT_DIR$/js_19,20/src/index.html" />
+    <entry file="file://$PROJECT_DIR$/test/1/index.html" />
+    <entry file="file://$PROJECT_DIR$/test/1/js/script.js" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training/src/containers/UsersContainer.jsx" />
+    <entry file="file://$PROJECT_DIR$/pomodoroCalc/src/store/actions/userActions.js" />
+    <entry file="file://$PROJECT_DIR$/pomodoroCalc/src/containers/UsersContainer.jsx" />
+    <entry file="file://$PROJECT_DIR$/pomodoroCalc/src/components/Counter.jsx" />
+    <entry file="file://$PROJECT_DIR$/pomodoroCalc/src/store/index.js" />
+    <entry file="file://$PROJECT_DIR$/pomodoroCalc/src/store/reducers/index.js" />
+    <entry file="file://$PROJECT_DIR$/pomodoroCalc/src/vanilla.js" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="3670" column="38" lean-forward="true" selection-start-line="3670" selection-start-column="38" selection-end-line="3670" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pomodoroCalc/.editorconfig" />
+    <entry file="file://$PROJECT_DIR$/pomodoroCalc/src/components/button/styled.js" />
+    <entry file="file://$PROJECT_DIR$/pomodoroCalc/webpack.config.js" />
+    <entry file="file://$PROJECT_DIR$/pomodoroCalc/src/index.html" />
+    <entry file="file://$PROJECT_DIR$/pomodoroCalc/src/containers/styled.js" />
+    <entry file="file://$PROJECT_DIR$/training/src/index.html" />
+    <entry file="file://$PROJECT_DIR$/training/.babelrc" />
+    <entry file="file://$PROJECT_DIR$/pomodoroCalc/.babelrc" />
+    <entry file="file://$PROJECT_DIR$/pomodoroCalc/src/index.jsx" />
+    <entry file="file://$PROJECT_DIR$/pomodoroCalc/src/components/button/index.js" />
+    <entry file="file://$PROJECT_DIR$/pomodoroCalc/src/containers/App.jsx" />
+    <entry file="file://$PROJECT_DIR$/pomodoroCalc/package.json" />
+    <entry file="file://$PROJECT_DIR$/training/package.json" />
+    <entry file="file://$PROJECT_DIR$/training/webpack.config.js" />
+    <entry file="file://$PROJECT_DIR$/training/src/store/reducers/userReducer.js" />
+    <entry file="file://$PROJECT_DIR$/training/src/store/reducers/filterReducer.js" />
+    <entry file="file://$PROJECT_DIR$/training/src/store/actions/userActions.js" />
+    <entry file="file://$PROJECT_DIR$/training/src/store/reducers/counterReducer.js" />
+    <entry file="file://$PROJECT_DIR$/training/src/store/reducers/index.js" />
+    <entry file="file://$PROJECT_DIR$/training/src/store/index.js" />
+    <entry file="file://$PROJECT_DIR$/training/src/containers/styled.js" />
+    <entry file="file://$PROJECT_DIR$/training/src/containers/App.jsx" />
+    <entry file="file://$PROJECT_DIR$/training/src/index.jsx" />
+    <entry file="file://$PROJECT_DIR$/pomodoroCalc/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/gulp-boilerplate/src/index.html" />
+    <entry file="file://$PROJECT_DIR$/gulp-boilerplate/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
