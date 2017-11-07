@@ -2,41 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list id="3110acfd-1940-4bf0-9029-0c297f8bc3bc" name="Revert &quot;добавил поиск при нажатии на input&quot; This reverts commit fa3bb60" comment="Revert &quot;добавил поиск при нажатии на input&quot;&#10;&#10;This reverts commit fa3bb60" />
-    <list default="true" id="4f5990f8-d0e1-4613-ab0c-5c0d4fdc0044" name="Default" comment="верстка">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLinters/jslint.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/css/styles.min.css" afterPath="$PROJECT_DIR$/css/styles.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/fonts/poppins-semibold-webfont.woff" afterPath="$PROJECT_DIR$/fonts/poppins-semibold-webfont.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/fonts/poppins-semibold-webfont.woff2" afterPath="$PROJECT_DIR$/fonts/poppins-semibold-webfont.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/features.png" afterPath="$PROJECT_DIR$/img/features.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/logo.png" afterPath="$PROJECT_DIR$/img/logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/main-sprite.png" afterPath="$PROJECT_DIR$/img/main-sprite.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/main.png" afterPath="$PROJECT_DIR$/img/main.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/partner1.png" afterPath="$PROJECT_DIR$/img/partner1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/partner2.png" afterPath="$PROJECT_DIR$/img/partner2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/partner3.png" afterPath="$PROJECT_DIR$/img/partner3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/partner4.png" afterPath="$PROJECT_DIR$/img/partner4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/partner5.png" afterPath="$PROJECT_DIR$/img/partner5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/partner6.png" afterPath="$PROJECT_DIR$/img/partner6.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/product1.png" afterPath="$PROJECT_DIR$/img/product1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/product2.png" afterPath="$PROJECT_DIR$/img/product2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/product3.png" afterPath="$PROJECT_DIR$/img/product3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/quotes.png" afterPath="$PROJECT_DIR$/img/quotes.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/round.png" afterPath="$PROJECT_DIR$/img/round.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/send-menu-background.jpg" afterPath="$PROJECT_DIR$/img/send-menu-background.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/social-and-submit-sprite.png" afterPath="$PROJECT_DIR$/img/social-and-submit-sprite.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/stars-voted.png" afterPath="$PROJECT_DIR$/img/stars-voted.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/stars.png" afterPath="$PROJECT_DIR$/img/stars.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/upper-section-man.jpg" afterPath="$PROJECT_DIR$/img/upper-section-man.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/vrbox1.jpg" afterPath="$PROJECT_DIR$/img/vrbox1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/img/vrbox2.jpg" afterPath="$PROJECT_DIR$/img/vrbox2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vr/index.html" afterPath="$PROJECT_DIR$/index.html" />
-    </list>
+    <list default="true" id="4f5990f8-d0e1-4613-ab0c-5c0d4fdc0044" name="Default" comment="верстка" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -303,7 +269,7 @@
       <workItem from="1509649088381" duration="167000" />
       <workItem from="1509649298195" duration="648000" />
       <workItem from="1509650248277" duration="92000" />
-      <workItem from="1509964266053" duration="319000" />
+      <workItem from="1509964266053" duration="898000" />
     </task>
     <task id="LOCAL-00001" summary="очистка master">
       <created>1506073333693</created>
@@ -379,7 +345,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177282000" />
+    <option name="totallyTimeSpent" value="177861000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
