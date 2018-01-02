@@ -2,113 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list id="3110acfd-1940-4bf0-9029-0c297f8bc3bc" name="Revert &quot;добавил поиск при нажатии на input&quot; This reverts commit fa3bb60" comment="Revert &quot;добавил поиск при нажатии на input&quot;&#10;&#10;This reverts commit fa3bb60" />
-    <list default="true" id="4f5990f8-d0e1-4613-ab0c-5c0d4fdc0044" name="Default" comment="верстка">
-      <change beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/css/font-awesome.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/FontAwesome.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/ab5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/ab7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/arrow.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/avatar2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/ban661.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/ban6666.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/c2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/dott.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/g1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/g2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/g31.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/g333.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/g4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/g5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/g6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/g7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/g8.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/g9.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/gal11.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/gal22.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/gal33.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/gal4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/gal44.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/gal66.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/gal77.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/gal88.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/gal99.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/skill2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/SmoothScroll.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/bars.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/easing.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/jquery-2.1.4.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/jquery.filterizr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/jquery.textFx.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/jquery.transit.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/menu.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/modernizr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/move-top.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/w3layouts-License.txt" />
-      <change beforePath="$PROJECT_DIR$/.editorconfig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+    <list default="true" id="4f5990f8-d0e1-4613-ab0c-5c0d4fdc0044" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/css/styles.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/fonts/poppins-semibold-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/fonts/poppins-semibold-webfont.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/features.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/main-sprite.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/main.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/partner1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/partner2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/partner3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/partner4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/partner5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/partner6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/product1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/product2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/product3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/quotes.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/round.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/send-menu-background.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/social-and-submit-sprite.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/stars-voted.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/stars.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/upper-section-man.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/vrbox1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/vrbox2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/index.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TODO.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/css/styles.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/css/styles.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/main-sprite.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/social-and-submit-sprite.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/poppins-semibold-webfont.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/poppins-semibold-webfont.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/features.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/main-sprite.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/main.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/partner1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/partner2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/partner3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/partner4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/partner5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/partner6.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/product1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/product2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/product3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/quotes.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/send-menu-background.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/social-and-submit-sprite.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/stars-voted.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/stars.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/upper-section-man.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/vrbox1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/vrbox2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pomodoroCalc/package-lock.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/favicon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/MyriadPro.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/img/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/img/main-sprite.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/img/social-and-submit-sprite.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/sass/Components/upper-menu.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/sass/core/_reset.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/sass/core/_typography.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/sass/core/core.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/sass/core/tools/tools.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/w3layouts-License.txt" afterPath="$PROJECT_DIR$/w3layouts-License.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -124,7 +48,7 @@
     <favorites_list name="maxvaschenko.github.io" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Downloads/web/index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -138,8 +62,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="94" column="40" lean-forward="false" selection-start-line="94" selection-start-column="40" selection-end-line="94" selection-end-column="40" />
+            <state relative-caret-position="270">
+              <caret line="90" column="24" lean-forward="true" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -215,8 +139,8 @@
         <option value="$PROJECT_DIR$/training/src/containers/App.jsx" />
         <option value="$PROJECT_DIR$/gulp-boilerplate/src/index.html" />
         <option value="$PROJECT_DIR$/sass/main.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -276,6 +200,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -283,12 +209,21 @@
               <item name="maxvaschenko.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="maxvaschenko.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="maxvaschenko.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maxvaschenko.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maxvaschenko.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maxvaschenko.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+              <item name="1" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -308,15 +243,16 @@
     <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/training/src/img" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/projects/1" />
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/gulp-boilerplate" />
       <recent name="$PROJECT_DIR$/pomodoroCalc" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/training/src/img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -394,7 +330,8 @@
       <workItem from="1514890864334" duration="540000" />
       <workItem from="1514899244142" duration="1340000" />
       <workItem from="1514901384572" duration="865000" />
-      <workItem from="1514904847854" duration="4074000" />
+      <workItem from="1514904847854" duration="4784000" />
+      <workItem from="1514930359454" duration="431000" />
     </task>
     <task id="LOCAL-00001" summary="очистка master">
       <created>1506073333693</created>
@@ -466,11 +403,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509648574530</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="portfolio">
+      <created>1514910159423</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1514910159423</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184680000" />
+    <option name="totallyTimeSpent" value="185821000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -490,18 +434,18 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.50289625" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26713008" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.49815693" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26713008" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24934107" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36192468" sideWeight="0.49710375" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964718" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -557,7 +501,8 @@
     <MESSAGE value="вопрос по передаче данных к родительскому компоненту" />
     <MESSAGE value="список с чекбоксами, редактированием и добавлением нового пункта" />
     <MESSAGE value="верстка" />
-    <option name="LAST_COMMIT_MESSAGE" value="верстка" />
+    <MESSAGE value="portfolio" />
+    <option name="LAST_COMMIT_MESSAGE" value="portfolio" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -566,7 +511,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/1/js/script.js" />
     <entry file="file://$PROJECT_DIR$/test/1/index.html" />
     <entry file="file://$PROJECT_DIR$/test/1/js/script.js" />
     <entry file="file://$PROJECT_DIR$/js_19,20/src/index.html" />
@@ -617,19 +561,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.scss" />
     <entry file="file://$USER_HOME$/Downloads/web/w3layouts-License.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -653,14 +589,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="1159" column="26" lean-forward="true" selection-start-line="1159" selection-start-column="26" selection-end-line="1159" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/1/css/styles.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="94" column="40" lean-forward="false" selection-start-line="94" selection-start-column="40" selection-end-line="94" selection-end-column="40" />
+        <state relative-caret-position="270">
+          <caret line="90" column="24" lean-forward="true" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
           <folding />
         </state>
       </provider>
