@@ -3,11 +3,11 @@
   <component name="ChangeListManager">
     <list id="3110acfd-1940-4bf0-9029-0c297f8bc3bc" name="Revert &quot;добавил поиск при нажатии на input&quot; This reverts commit fa3bb60" comment="Revert &quot;добавил поиск при нажатии на input&quot;&#10;&#10;This reverts commit fa3bb60" />
     <list default="true" id="4f5990f8-d0e1-4613-ab0c-5c0d4fdc0044" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/screen_1.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change beforePath="$PROJECT_DIR$/projects/1/css/styles.min.css" afterPath="$PROJECT_DIR$/projects/1/css/styles.min.css" />
+      <change beforePath="$PROJECT_DIR$/projects/1/index.html" afterPath="$PROJECT_DIR$/projects/1/index.html" />
       <change beforePath="$PROJECT_DIR$/w3layouts-License.txt" afterPath="$PROJECT_DIR$/w3layouts-License.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -35,11 +35,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="88" column="45" lean-forward="true" selection-start-line="88" selection-start-column="45" selection-end-line="88" selection-end-column="45" />
+            <state relative-caret-position="60">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/projects/1/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -185,6 +195,17 @@
               <item name="maxvaschenko.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="maxvaschenko.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="maxvaschenko.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maxvaschenko.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maxvaschenko.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maxvaschenko.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+              <item name="1" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -296,7 +317,7 @@
       <workItem from="1514899244142" duration="1340000" />
       <workItem from="1514901384572" duration="865000" />
       <workItem from="1514904847854" duration="4784000" />
-      <workItem from="1514930359454" duration="1599000" />
+      <workItem from="1514930359454" duration="2561000" />
     </task>
     <task id="LOCAL-00001" summary="очистка master">
       <created>1506073333693</created>
@@ -382,11 +403,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514930830172</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="training routes 2">
+      <created>1514931980438</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1514931980438</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186989000" />
+    <option name="totallyTimeSpent" value="187951000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -400,7 +428,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1365" y="0" width="1922" height="1080" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11913548" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -475,7 +502,8 @@
     <MESSAGE value="верстка" />
     <MESSAGE value="portfolio" />
     <MESSAGE value="training routes" />
-    <option name="LAST_COMMIT_MESSAGE" value="training routes" />
+    <MESSAGE value="training routes 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="training routes 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -484,7 +512,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/1/index.html" />
     <entry file="file://$PROJECT_DIR$/test/1/js/script.js" />
     <entry file="file://$PROJECT_DIR$/js_19,20/src/index.html" />
     <entry file="file://$PROJECT_DIR$/js_19,20/src/js/module1.js" />
@@ -576,8 +603,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="88" column="45" lean-forward="true" selection-start-line="88" selection-start-column="45" selection-end-line="88" selection-end-column="45" />
+        <state relative-caret-position="60">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
