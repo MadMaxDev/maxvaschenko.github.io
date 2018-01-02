@@ -1233,6 +1233,7 @@ footer p{
     width: 68%;
 	}
 	.jm-item-image {
+	padding-top: 50px;
     width: 250px;
     height: 210px;
 	}
