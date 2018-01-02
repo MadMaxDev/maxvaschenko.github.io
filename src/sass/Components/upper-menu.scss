@@ -1,0 +1,40 @@
+@import "../../../../gulp-boilerplate/gulp-boilerplate/src/sass/core/variables";
+
+.upper-menu{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding-top: 26px;
+  .upper-menu-img{
+    img{
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .upper-menu-items{
+    display: flex;
+    justify-content: space-between;
+    width: 730px;
+    ul{
+      display: flex;
+      justify-content: space-between;
+      width: 490px;
+      li{
+        line-height: 54px;
+      }
+    }
+    button{
+      background-color: $orange;
+      width: 200px;
+      height: 47px;
+      border-radius: 30px;
+      span{
+        color: #ffffff;
+        font: 14px MyriadPro;
+        font-weight: 700;
+        margin-right: 1px;
+      }
+    }
+  }
+}
