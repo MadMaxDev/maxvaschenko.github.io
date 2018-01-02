@@ -1,1 +1,0 @@
-Gulp Project Boilerplate
