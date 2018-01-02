@@ -3,35 +3,11 @@
   <component name="ChangeListManager">
     <list id="3110acfd-1940-4bf0-9029-0c297f8bc3bc" name="Revert &quot;добавил поиск при нажатии на input&quot; This reverts commit fa3bb60" comment="Revert &quot;добавил поиск при нажатии на input&quot;&#10;&#10;This reverts commit fa3bb60" />
     <list default="true" id="4f5990f8-d0e1-4613-ab0c-5c0d4fdc0044" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/css/styles.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/fonts/poppins-semibold-webfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/fonts/poppins-semibold-webfont.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/features.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/main-sprite.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/main.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/partner1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/partner2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/partner3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/partner4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/partner5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/partner6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/product1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/product2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/product3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/quotes.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/round.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/send-menu-background.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/social-and-submit-sprite.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/stars-voted.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/stars.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/upper-section-man.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/vrbox1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/img/vrbox2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/projects/1/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/screen_1.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/projects/1/css/styles.min.css" afterPath="$PROJECT_DIR$/projects/1/css/styles.min.css" />
       <change beforePath="$PROJECT_DIR$/w3layouts-License.txt" afterPath="$PROJECT_DIR$/w3layouts-License.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -62,8 +38,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="90" column="24" lean-forward="true" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
+            <state relative-caret-position="260">
+              <caret line="88" column="45" lean-forward="true" selection-start-line="88" selection-start-column="45" selection-end-line="88" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -157,10 +133,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="1366" />
-    <option name="width" value="1906" />
-    <option name="height" value="1080" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1365" />
+    <option name="width" value="1922" />
+    <option name="height" value="1076" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -209,17 +185,6 @@
               <item name="maxvaschenko.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="maxvaschenko.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="maxvaschenko.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maxvaschenko.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maxvaschenko.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maxvaschenko.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
-              <item name="1" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -244,8 +209,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/projects/1" />
       <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/projects/1" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/gulp-boilerplate" />
       <recent name="$PROJECT_DIR$/pomodoroCalc" />
@@ -331,7 +296,7 @@
       <workItem from="1514899244142" duration="1340000" />
       <workItem from="1514901384572" duration="865000" />
       <workItem from="1514904847854" duration="4784000" />
-      <workItem from="1514930359454" duration="431000" />
+      <workItem from="1514930359454" duration="1599000" />
     </task>
     <task id="LOCAL-00001" summary="очистка master">
       <created>1506073333693</created>
@@ -410,11 +375,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514910159423</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="training routes">
+      <created>1514930830172</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1514930830172</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185821000" />
+    <option name="totallyTimeSpent" value="186989000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -427,10 +399,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1366" y="0" width="1906" height="1080" extended-state="4" />
+    <frame x="1365" y="0" width="1922" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12014886" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11913548" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.50289625" order="7" side_tool="true" content_ui="tabs" />
@@ -502,7 +474,8 @@
     <MESSAGE value="список с чекбоксами, редактированием и добавлением нового пункта" />
     <MESSAGE value="верстка" />
     <MESSAGE value="portfolio" />
-    <option name="LAST_COMMIT_MESSAGE" value="portfolio" />
+    <MESSAGE value="training routes" />
+    <option name="LAST_COMMIT_MESSAGE" value="training routes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -589,6 +562,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="1159" column="26" lean-forward="true" selection-start-line="1159" selection-start-column="26" selection-end-line="1159" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -602,8 +576,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="90" column="24" lean-forward="true" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
+        <state relative-caret-position="260">
+          <caret line="88" column="45" lean-forward="true" selection-start-line="88" selection-start-column="45" selection-end-line="88" selection-end-column="45" />
           <folding />
         </state>
       </provider>
